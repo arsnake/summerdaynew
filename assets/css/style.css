@@ -123,7 +123,7 @@ a.download-link i{ margin-right: 10px;font-size:14px;}
 .brands-links{ font-size:0;}
 .brands-links .inrow{ height:300px;}
 .brands-links .col-50, .brands-links .col-25{font-size:initial;}
-.brands-links .isatex-link{display:inline-block;vertical-align: top;width: 50%;background: url(../../assets/images/isatex-photo-1.jpg) no-repeat center;background-size: cover;height: 100%;}
+.brands-links .isatex-link{display:inline-block;vertical-align: top;width: 50%;background: url(../../assets/images/isatex-photo-3.jpg) no-repeat center;background-size: cover;height: 100%;}
 .brands-links .isatex-link .glass{height: 100%;width:100%;display: table;background: rgb(40 64 134 / 50%);}
 .brands-links .isatex-link .content{display: table-cell;vertical-align:bottom;padding: 0 40px 40px 40px;cursor:pointer;}
 .brands-links .isatex-link .content:hover{padding-bottom:50px; }
@@ -175,7 +175,7 @@ a.download-link i{ margin-right: 10px;font-size:14px;}
 .images-links .inrow{ height:300px;}
 .images-links .col-50{font-size:initial;}
 .images-links .link{display:inline-block;vertical-align: top;width: 50%;height: 100%; background: #ccc;}
-.images-links .link.link-1{ background: url(../../assets/images/isatex-photo-1.jpg) no-repeat center;background-size: cover;}
+.images-links .link.link-1{ background: url(../../assets/images/isatex-photo-2.jpg) no-repeat center;background-size: cover;}
 .images-links .link.link-2{background: url(../../assets/images/isatex-photo-1.jpg) no-repeat center;background-size: cover;text-align: right;}
 .images-links .link .glass{height: 100%;width:100%;display: table;background: rgb(40 64 134 / 50%);}
 .images-links .link .content{display: table-cell;vertical-align:bottom;padding: 0 40px 40px 40px;cursor:pointer;}
@@ -420,10 +420,6 @@ input{padding: 8px 15px;width: 300px;max-width: calc(100% - 30px);border-radius:
 
 .inrow {overflow:hidden;}
 
-video::-webkit-media-controls {
-display:none !important;
-}
-
 .header-bg {
 	width:100%;
 	background-size:cover;
@@ -436,3 +432,15 @@ display:none !important;
 	background: center / cover no-repeat url(../../assets/images/2ndqueue.jpg);
 }
 
+.vjs-has-started .vjs-control-bar {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.1s, opacity 0.1s;
+    z-index: 99;
+}
+
+.vjs-poster {
+    background-size: cover !important;
+    background-position: center !important;
+}

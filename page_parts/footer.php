@@ -51,6 +51,8 @@
 
 <script src="assets/scripts/owlcarousel/owl.carousel.js"></script>
 <script src="assets/scripts/fancybox/jquery.fancybox.min.js"></script>
+<script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+
 
 <script>
     $('.news.owl-carousel').owlCarousel({

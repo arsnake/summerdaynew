@@ -10,7 +10,7 @@
             <ul>
                 <li><a href="/project">Grand Family Apartments</a></li>
                 <li><a href="/project2">Grand Family Village</a></li>
-                <li><a href="/">Умови придбання</a></li>
+                <!--<li><a href="/">Умови придбання</a></li>-->
             </ul>
         </li>
         <li><a href="https://gfa.in.ua/" target="_blank">Забронювати</a></li>

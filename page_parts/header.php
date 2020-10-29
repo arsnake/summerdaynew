@@ -30,6 +30,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <script src="assets/scripts/jquery-2.2.2.min.js"></script>
+
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 </head>
 
 <body  class="js-stop-transition">
