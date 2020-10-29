@@ -3,7 +3,13 @@
     <div class="row">
         <div class="inrow">
             <div class="h2"><strong>Grand Family Apartments</strong> - нове ім’я, нове життя, нові можливості</div>
-            <?php include 'page_parts/crumbs.php'; ?>
+            <div class="crumbs">
+				<ul>
+					<li><a class="item" href="/">Головна /</a></li>
+					<li><a class="item" href="/projects">Придбати /</a></li>
+					<li><span class="item">Grand Family Apartments</span></li>
+				</ul>
+			</div>
             <div class="about">
                 <p>Усе буде <strong>Grand!</strong></p>
             </div>

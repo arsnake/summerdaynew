@@ -3,7 +3,13 @@
     <div class="row">
         <div class="inrow">
             <div class="h2">Про нас</div>
-            <?php include 'page_parts/crumbs.php'; ?>
+            
+            <div class="crumbs">
+				<ul>
+					<li><a class="item" href="/">Головна /</a></li>
+					<li><span class="item">Про нас</span></li>
+				</ul>
+			</div>
 
             <?php
                 $owners = [

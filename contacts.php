@@ -3,7 +3,12 @@
     <div class="row">
         <div class="inrow">
             <div class="h2">Контакти</div>
-            <?php include 'page_parts/crumbs.php'; ?>
+            <div class="crumbs">
+				<ul>
+					<li><a class="item" href="/">Головна /</a></li>
+					<li><span class="item">Контакти</span></li>
+				</ul>
+			</div>
             <div class="our-contacts">
                 <div class="col-50">
                     <div class="title">Головний офіс, департамент із продажу:</div>

@@ -3,7 +3,13 @@
     <div class="row">
         <div class="inrow">
             <div class="h2">Grand Новини</div>
-            <?php include 'page_parts/crumbs.php'; ?>
+            
+            <div class="crumbs">
+				<ul>
+					<li><a class="item" href="/">Головна /</a></li>
+					<li><span class="item">Новини</span></li>
+				</ul>
+			</div>
             <?php
             $news = [
                 ['date' => '10 вересня 2020', 'name' => 'Новий рівень житла', 'image' => '1.jpg', 'company_name' => 'apartments', 'company_logo' => 'logo-g.png', 'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at corporis culpa dolor doloribus earum fuga fugit id illum, impedit iusto maxime, natus nobis odio optio quod rerum vitae? Atque!'],

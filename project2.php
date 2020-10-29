@@ -3,7 +3,13 @@
     <div class="row">
         <div class="inrow">
             <div class="h2"><strong>Grand Family Village</strong> - клубний відпочинок, комфортне життя</div>
-            <?php include 'page_parts/crumbs.php'; ?>
+            <div class="crumbs">
+				<ul>
+					<li><a class="item" href="/">Головна /</a></li>
+					<li><a class="item" href="/projects">Проекти /</a></li>
+					<li><span class="item">Grand Family Village</span></li>
+				</ul>
+			</div>
             <div class="about">
                 <p>Усе буде <strong>Grand!</strong></p>
             </div>
