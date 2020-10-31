@@ -1,2 +1,8 @@
 /assets/video/*
+.env
+.ftpquota
+vendor/
+.well-known/
+.idea/
 /idea/
+todo.md
