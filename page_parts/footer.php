@@ -55,6 +55,24 @@
 
 
 <script>
+    $('.project-gallery .owl-carousel').owlCarousel({
+        margin: 0,
+        nav:false,
+        loop:true,
+        dots: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+
     $('.news.owl-carousel').owlCarousel({
         margin: 0,
         nav:false,
@@ -71,7 +89,7 @@
                 items:4
             }
         }
-    })
+    });
     $('.gallery .owl-carousel').owlCarousel({
         margin: 0,
         nav:false,

@@ -24,9 +24,49 @@
             <div class="h2">Другий етап будівництва:</div>
             <div class="about">
                 <p>Із великим задоволенням ми раді представити Вам нову стадію нашого проекту- другу чергу будівництва. Ставлячись із великою повагою до наших інвесторів та гостей, усі будівельні роботи ми робимо виключно із 1 жовтня до 1 травня. </p>
-                <div>
-                    <a href="#" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 30 кв.м. PDF</a>
-                    <a href="#" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 64 кв.м. PDF</a>
+                <div class="variants">
+                    <div class="variant">
+                        <div class="title">Планування 30 кв.м.</div>
+                        <div class="image">
+                            <img class="item" src="assets/images/project-renders/render_1_1.jpg" alt="alt">
+                        </div>
+                        <div class="description">
+                            <div class="text">
+                                <p><strong>Без ремонту:</strong></p>
+                                <p>Оплата 100%- 18590 у.о*</p>
+                                <p>Розстрочка до 3-х років від забудовника- 20020 у.о.*</p>
+                                <p>перший внесок- 30%</p>
+                            </div>
+                            <div class="text">
+                                <p><strong>З ремонтом:</strong></p>
+                                <p>Оплата 100%-  23 452 у.о.*</p>
+                                <p>Розстрочка до 3-х років від забудовника- 24 882 у.о.*</p>
+                                <p>перший внесок- 30%</p>
+                                <p><span class="small">*у.о.- доллар США за курсом НБУ України</span></p>
+                            </div>
+                        </div>
+                        <div class="download"><a href="#" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 26 кв.м. PDF</a></div>
+                    </div>
+                    <div class="variant">
+                        <div class="title">Планування 49 кв.м.</div>
+                        <div class="image"><img src="assets/images/project-renders/render_2_2.png" alt="Житлових корпусів"></div>
+                        <div class="description">
+                            <div class="text">
+                                <p><strong>Без ремонту:</strong></p>
+                                <p>Оплата 100%- 35 035 у.о*</p>
+                                <p>Розстрочка до 3-х років від забудовника- 37 730 у.о.*</p>
+                                <p>перший внесок- 30%</p>
+                            </div>
+                            <div class="text">
+                                <p><strong>З ремонтом:</strong></p>
+                                <p>Оплата 100%-  44 198 у.о.*</p>
+                                <p>Розстрочка до 3-х років від забудовника- 46 893 у.о.*</p>
+                                <p>перший внесок- 30%</p>
+                                <p><span class="small">*у.о.- доллар США за курсом НБУ України</span></p>
+                            </div>
+                        </div>
+                        <div class="download"><a href="#" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 49 кв.м. PDF</a></div>
+                    </div>
                 </div>
             </div>
         </div>
