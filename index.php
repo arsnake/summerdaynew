@@ -3,7 +3,7 @@
 <div class="row">
     <div class="inrow">
         <div class="video" style="position:relative;width:100%;">
-		<video controls preload="auto" muted class="video-js" style="position:absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;" id="main-video" poster="assets/images/video-bg.jpg" data-setup="{}">
+		<video controls preload="auto" muted class="video-js vjs-fluid" style="position:absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;" id="main-video" poster="assets/images/video-bg.jpg" data-setup="{}">
 		    <source src="/assets/video/GRAND FAMILY_6.10.mp4" type="video/mp4"/>
               <p class="vjs-no-js">
                  To view this video please enable JavaScript, and consider upgrading to a web browser that
