@@ -16,7 +16,7 @@
                     <div class="date"><i class="fa fa-calendar-alt"></i>23 вересня 2020</div>
                     <div class="text">
                         <p>Зустрічайте наше нове відео, у якому ми розповідаємо про життя та устрій нашого Комплексу Grand Family Apartments. Детальніше переглянути відео можна на нашому
-                            <a href="https://www.youtube.com/channel/UC-VT5giBfkDIqzNpvIUHErw?view_as=subscriber" target="_blank"></a>youtube каналі. Переходьте, підписуйтесь, коментуйте. Гарного перегляду !</p>
+                            <a href="https://www.youtube.com/channel/UC-VT5giBfkDIqzNpvIUHErw?view_as=subscriber" target="_blank">youtube</a> каналі. Переходьте, підписуйтесь, коментуйте. Гарного перегляду !</p>
                     </div>
                 </div>
                 <div class="col-50"><img src="assets/images/news/news-1.jpg" alt="Нове відео"></div>

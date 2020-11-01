@@ -69,6 +69,7 @@
                     <div class="text">Гектар озеленення</div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>

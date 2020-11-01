@@ -52,7 +52,7 @@
         <div class="inrow">
             <div class="village-plans">
                 <div class="plan">
-                    <div class="h2">Планування та вартість таунхаусу <strong>Аквамарин</strong>.S - 65 кв.м</div>
+                    <div class="h2">Планування та вартість таунхаусу <strong>Аквамарин</strong>. Загальна площа - 65 кв.м.</div>
                     <div class="download"><a href="assets/files/gfe/kp_akvamarin.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a></div>
                     <div class="image"><img src="assets/images/plan-2.jpg" alt=""></div>
                     <div class="description">
@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="plan">
-                    <div class="h2">Планування та вартість таунхаусу <strong>Онікс</strong>.S - 91 кв.м</div>
+                    <div class="h2">Планування та вартість таунхаусу <strong>Онікс</strong>. Загальна площа - 91 кв.м.</div>
                     <div class="download"><a href="assets/files/gfe/kp_onyx.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a></div>
                     <div class="image"><img src="assets/images/plan-3.jpg" alt=""></div>
                     <div class="description">
@@ -180,7 +180,7 @@
                 </div>
 
                 <div class="plan">
-                    <div class="h2">Планування та вартість таунхаусу <strong>Смарагд</strong>.S - 55 кв.м</div>
+                    <div class="h2">Планування та вартість таунхаусу <strong>Смарагд</strong>. Загальна площа - 55 кв.м.</div>
                     <div class="download"><a href="assets/files/gfe/kp_smaragd.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a></div>
                     <div class="image"><img src="assets/images/plan-1.jpg" alt=""></div>
                     <div class="description">

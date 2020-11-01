@@ -76,31 +76,6 @@
                         <div class="text">Гектар озеленення</div>
                     </div>
                 </div>
-                <div class="achievement">
-                    <div class="content">
-                        <img src="assets/images/icons/045-cctv.svg" alt="охорона території">
-                        <div class="number">&nbsp;</div>
-                        <div class="text">Охорона території</div>
-                    </div>
-                </div>
-                <div class="achievement">
-                    <div class="content">
-                        <img src="assets/images/icons/washing-machine.svg" alt="прання білизни">
-                        <div class="text">Прання білизни</div>
-                    </div>
-                </div>
-                <div class="achievement">
-                    <div class="content">
-                        <img src="assets/images/icons/vacuum-cleaner.svg" alt="прибирання">
-                        <div class="text">Прибирання</div>
-                    </div>
-                </div>
-                <div class="achievement">
-                    <div class="content">
-                        <img src="assets/images/icons/008-skewer.svg" alt="зона барбекю">
-                        <div class="text">Зона барбекю</div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
