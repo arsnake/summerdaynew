@@ -106,7 +106,7 @@ function mainVideoControl() {
 
                         if(in_array($ext,$allowed_types))
                         {
-                            echo '<a data-fancybox="galleryUniqueId1" data-caption="" href="'.$directory.'/'.$file.'"><img src="'.$directory.'/'.$file.'" class="item" title="'.$file.'" style="height: 200px;"/></a>';
+                            echo '<a data-fancybox="galleryUniqueId1" data-caption="" href="'.$directory.'/'.$file.'"><img src="'.$directory.'/'.$file.'" class="item" title="'.$file.'" /></a>';
                             $i++;
                         }
 
