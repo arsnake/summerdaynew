@@ -41,7 +41,7 @@
                 <?php } ?>
             </div>
 
-            <?php include 'page_parts/pagination.php'; ?>
+            <?php #include 'page_parts/pagination.php'; ?>
         </div>
     </div>
 
