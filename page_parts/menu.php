@@ -6,7 +6,7 @@
         <li><a href="/about">Про нас</a></li>
         <li><a href="/projects">Проекти</a></li>
          <li class="has-child">
-            <a href="#">Придбати</a>
+            <a href="#" id="buy">Придбати</a>
             <ul>
                 <li><a href="/project">Grand Family Apartments</a></li>
                 <li><a href="/project2">Grand Family Village</a></li>

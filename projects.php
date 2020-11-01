@@ -16,7 +16,94 @@
     </div>
 
 <?php include './page_parts/projects.php'; ?>
-<?php include 'page_parts/achievements.php'; ?>
+    <div class="row">
+        <div class="inrow">
+            <div class="h2"><strong>Grand</strong> Досягнення</div>
+            <div class="achievements">
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/office.svg" alt="Житлових корпусів">
+                        <div class="number">5</div>
+                        <div class="text">Житлових корпусів</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/hand.svg" alt="Житлових корпусів">
+                        <div class="number">174</div>
+                        <div class="text">Квартири</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/parking-area.svg" alt="Житлових корпусів">
+                        <div class="number">2</div>
+                        <div class="text">Паркінги</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/roads.svg" alt="Житлових корпусів">
+                        <div class="number">7,8</div>
+                        <div class="text">Км. доріжок</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/swimming-pool.svg" alt="Житлових корпусів">
+                        <div class="number">1</div>
+                        <div class="text">Басейн</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/slide.svg" alt="Житлових корпусів">
+                        <div class="number">3</div>
+                        <div class="text">Дитячих майданчики</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/beach.svg" alt="Житлових корпусів">
+                        <div class="number">450</div>
+                        <div class="text">Метрів чистого пляжу</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/forest.svg" alt="Гектар озеленення">
+                        <div class="number">2.1</div>
+                        <div class="text">Гектар озеленення</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/045-cctv.svg" alt="охорона території">
+                        <div class="number">&nbsp;</div>
+                        <div class="text">Охорона території</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/washing-machine.svg" alt="прання білизни">
+                        <div class="text">Прання білизни</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/vacuum-cleaner.svg" alt="прибирання">
+                        <div class="text">Прибирання</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/008-skewer.svg" alt="зона барбекю">
+                        <div class="text">Зона барбекю</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <div class="row">
         <div class="inrow">
@@ -63,5 +150,11 @@
             </div>
         </div>
     </div>
-
+    <script>
+        $('ul li').each(function(i)
+        {
+            $(this).find('a').removeClass('active'); // This is your rel value
+            $('a[href$="projects"]').addClass('active');
+        });
+    </script>
 <?php include 'page_parts/footer.php'; ?>

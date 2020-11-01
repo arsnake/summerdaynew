@@ -13,6 +13,10 @@ RewriteRule ^project$ project.php [L]
 RewriteRule ^project2$ project2.php [L]
 RewriteRule ^projects$ projects.php [L]
 
+RewriteRule ^news-1$ news-1.php [L]
+RewriteRule ^news-2$ news-2.php [L]
+RewriteRule ^news-3$ news-3.php [L]
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 

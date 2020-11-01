@@ -2,17 +2,16 @@
     <div class="inrow">
         <div class="h2">Grand Новини</div>
         <?php
-            $news = [
-              ['date' => '10 вересня 2020', 'name' => 'Новий рівень житла', 'image' => '1.jpg', 'company_name' => 'apartments', 'company_logo' => 'logo-g.png', 'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at corporis culpa dolor doloribus earum fuga fugit id illum, impedit iusto maxime, natus nobis odio optio quod rerum vitae? Atque!'],
-              ['date' => '10 вересня 2020', 'name' => 'Новий рівень житла', 'image' => '1.jpg', 'company_name' => 'apartments', 'company_logo' => 'logo-g.png', 'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at corporis culpa dolor doloribus earum fuga fugit id illum, impedit iusto maxime, natus nobis odio optio quod rerum vitae? Atque!'],
-              ['date' => '10 вересня 2020', 'name' => 'Новий рівень житла', 'image' => '1.jpg', 'company_name' => 'apartments', 'company_logo' => 'logo-g.png', 'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at corporis culpa dolor doloribus earum fuga fugit id illum, impedit iusto maxime, natus nobis odio optio quod rerum vitae? Atque!'],
-              ['date' => '10 вересня 2020', 'name' => 'Новий рівень житла1', 'image' => '1.jpg', 'company_name' => 'village', 'company_logo' => 'logo-gfv.svg', 'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at corporis culpa dolor doloribus earum fuga fugit id illum, impedit iusto maxime, natus nobis odio optio quod rerum vitae? Atque!'],
-            ];
+        $news = [
+            ['date' => '14 жовтня 2020', 'url' => 'news-3', 'name' => 'День українського козацтва', 'image' => 'news-3.jpg', 'company_name' => 'apartments', 'company_logo' => 'logo-g.png', 'text' => 'Цього дня українці святкують одразу три свята. Перше- Свято Покрови Божої Матері, друге- День українського козацтва, і наймолодше- День захисника України.'],
+            ['date' => '01 жовтня 2020', 'url' => 'news-2', 'name' => 'Початок підготовки до будівництва', 'image' => 'news-2.jpg', 'company_name' => 'apartments', 'company_logo' => 'logo-g.png', 'text' => 'Ми із великою повагою ставимось до наших інвесторів та гостей, тому усі будівельні роботи, пов&#39;язані із великою технікою та підвищеним шумом, проводимо у період виключно із 1 жовтня по 1 травня. Із 1 жовтня...'],
+            ['date' => '23 вересня 2020', 'url' => 'news-1', 'name' => 'Нове відео', 'image' => 'news-1.jpg', 'company_name' => 'apartments', 'company_logo' => 'logo-g.png', 'text' => 'Зустрічайте наше нове відео, у якому ми розповідаємо про життя та устрій нашого Комплексу Grand Family Apartments. Детальніше переглянути відео можна на ...']
+        ];
         ?>
 
         <div class="news owl-carousel owl-theme">
             <?php foreach($news as $article){ ?>
-                <a class="article item" href="newscontent">
+                <a class="article item" href="<?= $article['url'] ?>">
                     <div class="title">
                         <div class="name">
                             <div class="date"><?= $article['date'] ?></div>

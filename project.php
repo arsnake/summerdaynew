@@ -45,7 +45,7 @@
                                 <p><span class="small">*у.о.- доллар США за курсом НБУ України</span></p>
                             </div>
                         </div>
-                        <div class="download"><a href="#" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 26 кв.м. PDF</a></div>
+                        <div class="download"><a href="/assets/files/gfa/kp_26.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 26 кв.м. PDF</a></div>
                     </div>
                     <div class="variant">
                         <div class="title">Планування 49 кв.м.</div>
@@ -65,7 +65,7 @@
                                 <p><span class="small">*у.о.- доллар США за курсом НБУ України</span></p>
                             </div>
                         </div>
-                        <div class="download"><a href="#" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 49 кв.м. PDF</a></div>
+                        <div class="download"><a href="/assets/files/gfa/kp_49.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 49 кв.м. PDF</a></div>
                     </div>
                 </div>
             </div>
@@ -78,55 +78,55 @@
         <div class="achievements">
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/office.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/007-coconut%20tree.svg" alt="перша лінія моря">
                     <div class="text">перша лінія моря</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/hand.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/001-thermometer.svg" alt="басейн із підігрівом">
                     <div class="text">басейн із підігрівом</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/parking-area.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/012-dish.svg" alt="кафе та ресторан">
                     <div class="text">кафе та ресторан</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/roads.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/039-slide.svg" alt="дитячі майданчики">
                     <div class="text">дитячі майданчики</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/swimming-pool.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/park.png" alt="зони відпочинку">
                     <div class="text">зони відпочинку</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/slide.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/008-skewer.svg" alt="зони барбекю">
                     <div class="text">зони барбекю</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/beach.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/014-parking-5.svg" alt="паркінги">
                     <div class="text">паркінги</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/forest.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/016-cctv.svg" alt="цілодобова охорона">
                     <div class="text">цілодобова охорона</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/forest.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/006-cupping.svg" alt="СПА салон">
                     <div class="text">СПА салон</div>
                 </div>
             </div>
@@ -134,19 +134,19 @@
 			
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/roads.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/001-open%2024%20hours.svg" alt="конференц- зала">
                     <div class="text">конференц- зала</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/swimming-pool.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/015-football%20field.svg" alt="спортивні майданчики">
                     <div class="text">спортивні майданчики</div>
                 </div>
             </div>
             <div class="achievement">
                 <div class="content">
-                    <img src="assets/images/icons/slide.svg" alt="Житлових корпусів">
+                    <img src="assets/images/icons/023-fish%20shop.svg" alt="магазини">
                     <div class="text">магазини</div>
                 </div>
             </div>
@@ -244,32 +244,33 @@
                 <div class="achievements">
 					<div class="achievement">
 						<div class="content">
-							<img src="assets/images/icons/parking-area.svg" alt="Житлових корпусів">
+							<img src="assets/images/icons/001-payment.svg" alt="розстрочка від забудовника">
 							<div class="text">розстрочка від забудовника</div>
 						</div>
 					</div>
 					<div class="achievement">
 						<div class="content">
-							<img src="assets/images/icons/roads.svg" alt="Житлових корпусів">
+							<img src="assets/images/icons/039-piggy%20bank.png" alt="ліквідна нерухомість">
 							<div class="text">ліквідна нерухомість</div>
 						</div>
 					</div>
 					<div class="achievement">
 						<div class="content">
-							<img src="assets/images/icons/swimming-pool.svg" alt="Житлових корпусів">
+							<img src="assets/images/icons/002-investing.svg" alt="стабільний пасивний дохід">
 							<div class="text">стабільний пасивний дохід</div>
 						</div>
 					</div>
 					<div class="achievement">
 						<div class="content">
-							<img src="assets/images/icons/slide.svg" alt="Житлових корпусів">
+							<img src="assets/images/icons/016-investing.svg" alt="обслуговування керуючою компанією">
 							<div class="text">обслуговування керуючою компанією</div>
 						</div>
 					</div>
 					<div class="achievement">
 						<div class="content">
-							<img src="assets/images/icons/beach.svg" alt="Житлових корпусів">
-							<div class="text">окупність до 3 років </div>
+                            <div class="number">&nbsp;</div>
+							<img src="assets/images/icons/019-saving%20money.svg" alt="окупність до 3 років">
+							<div class="text">окупність до 3 років</div>
 						</div>
 					</div>
 			</div>
@@ -280,4 +281,11 @@
 
     <?php include './page_parts/projects.php'; ?>
 
+    <script>
+        $('ul li').each(function(i)
+        {
+            $(this).find('a').removeClass('active'); // This is your rel value
+            $('#buy').addClass('active');
+        });
+    </script>
     <?php include 'page_parts/footer.php'; ?>
