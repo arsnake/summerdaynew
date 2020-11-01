@@ -1,4 +1,4 @@
-<div class="row subscribe">
+<div class="row subscribe" id="subscribe">
     <div class="inrow">
         <div class="h2">Актуальна інформація про наші новини та акції</div>
         <div class="form jsSubscribeForm">
