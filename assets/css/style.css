@@ -218,11 +218,17 @@ input{padding: 8px 15px;width: 300px;max-width: calc(100% - 30px);border-radius:
 .our-contacts .worktime i{ display:inline-block; margin:0 10px 0 -30px;position:absolute;top:0;}
 .our-contacts a .description{display:block;font-size: 14px;}
 
-.map{background: url(../images/map.jpg) no-repeat center;background-size: cover;padding: 40px;min-height: 300px;}
+.map{background: url(../images/maps/map-gf.jpg) no-repeat center;background-size: cover;padding: 40px;min-height: 300px;}
+.map.isatex{background: url(../images/maps/map-isatex.jpg) no-repeat center;background-size: cover;}
 .map .h2{ margin:0;}
-.map .google-link .address{margin:10px 0; }
+.map .google-link{ margin-top:10px;}
+.map .google-link .title i{ margin-right:10px;}
+.map .google-link.apartments .title i{ color: var(--apartments-blue, #284086);}
+.map .google-link.village .title i{ color:var(--village-blue, #61bcc1);}
+.map .google-link .address{margin: 3px 0;}
 .map .google-link a{ text-decoration: none; color: var(--middle-grey); }
 .map .google-link a:hover{color:var(--dark-grey, #333);}
+.map .google-link a i{ margin-left:10px;}
 
 .projects{margin: 0 40px 40px 40px;font-size: 0;}
 .projects a{display: inline-block;width: calc(50% - 40px);vertical-align: top;font-size: initial;background: #ccc;color:#fff;text-decoration:none;padding: 20px;}

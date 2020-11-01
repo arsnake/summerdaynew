@@ -1,6 +1,15 @@
 
 <?php include 'subscribe.php'; ?>
-<?php include 'map.php'; ?>
+
+
+<?php
+if(($_SERVER['REQUEST_URI'] === '/about')) {
+    include 'map-isatex.php';
+}else{
+    include 'map.php';
+}
+?>
+
 
 <div class="row">
     <div class="inrow">
