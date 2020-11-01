@@ -26,7 +26,7 @@
                 <p>Із великим задоволенням ми раді представити Вам нову стадію нашого проекту- другу чергу будівництва. Ставлячись із великою повагою до наших інвесторів та гостей, усі будівельні роботи ми робимо виключно із 1 жовтня до 1 травня. </p>
                 <div class="variants">
                     <div class="variant">
-                        <div class="title">Планування 30 кв.м.</div>
+                        <div class="title">Планування 26 кв.м.</div>
                         <div class="image">
                             <img class="item" src="assets/images/project-renders/render_1_1.jpg" alt="alt">
                         </div>
@@ -177,7 +177,7 @@
 
                         if(in_array($ext,$allowed_types))
                         {
-                            echo '<a data-fancybox="galleryUniqueId1" data-caption="" href="'.$directory.'/'.$file.'"><img src="'.$directory.'/'.$file.'" class="item" title="'.$file.'" style="height: 200px;"/></a>';
+                            echo '<a data-fancybox="galleryUniqueId11" data-caption="" href="'.$directory.'/'.$file.'"><img src="'.$directory.'/'.$file.'" class="item" title="'.$file.'" style="height: 200px;"/></a>';
                             $i++;
                         }
 

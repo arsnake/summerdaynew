@@ -18,7 +18,7 @@
 
     <div class="row">
         <div class="inrow">
-            <div class="h2">Зонування загальноъ план-схеми</div>
+            <div class="h2">Зонування загальної план-схеми</div>
             <div class="village-plan-scheme">
                 <div class="content">
                     <div class="image"><img src="assets/images/project-renders/village-plan.jpg" alt=""></div>
@@ -28,23 +28,20 @@
                                 1. Місця для паркування
                                 <ul>
                                     <li>1.1. Основні</li>
-                                    <li>1.1. Для гостей</li>
+                                    <li>1.2. Для гостей</li>
                                 </ul>
                             </li>
                             <li>2. Кафе та ресторани</li>
                             <li>3. Спортивні майданчики</li>
-                            <li>
-                                1. Місця для паркування
-                                <ul>
-                                    <li>1.1. Основні</li>
-                                    <li>1.1. Для гостей</li>
-                                </ul>
-                            </li>
-                            <li>2. Кафе та ресторани</li>
-                            <li>3. Спортивні майданчики</li>
-                            <li>2. Кафе та ресторани</li>
-                            <li>3. Спортивні майданчики</li>
+                            <li>4. Басейн</li>
+                            <li>5. Дитячі майданчики</li>
+                            <li>6. Релакс - зона</li>
+                            <li>7. Адміністрація</li>
                         </ul>
+                        <div style="width: 100%;margin-left: 20px;margin-top: 15px;">
+                            <div style="width: 60px; height: 25px; background-color: #f00;display: inline-block"></div><span style="margin-left: 5px;">1 черга</span>
+                            <div style="width: 60px; height: 25px; background-color: #fbee00; display: inline-block;margin-left: 10px;"></div><span style="margin-left: 5px;">2 черга</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,7 +52,7 @@
         <div class="inrow">
             <div class="village-plans">
                 <div class="plan">
-                    <div class="h2">Планування та вартість таунхауса <strong>Аквамарин</strong>.S - 65 кв.м</div>
+                    <div class="h2">Планування та вартість таунхаусу <strong>Аквамарин</strong>.S - 65 кв.м</div>
                     <div class="download"><a href="assets/files/gfe/kp_akvamarin.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a></div>
                     <div class="image"><img src="assets/images/plan-2.jpg" alt=""></div>
                     <div class="description">
@@ -106,7 +103,7 @@
                         </div>
 
                         <div class="zones">
-                            <div class="title">Зонавання таунхаус Аквамарин</div>
+                            <div class="title">Зонування таунхаусу Аквамарин</div>
                             <ul>
                                 <li>1. Паркінг - 20 кв.м.</li>
                                 <li>2. Столова зона - 16 кв.м.</li>
@@ -119,7 +116,7 @@
                 </div>
 
                 <div class="plan">
-                    <div class="h2">Планування та вартість таунхауса <strong>Онікс</strong>.S - 91 кв.м</div>
+                    <div class="h2">Планування та вартість таунхаусу <strong>Онікс</strong>.S - 91 кв.м</div>
                     <div class="download"><a href="assets/files/gfe/kp_onyx.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a></div>
                     <div class="image"><img src="assets/images/plan-3.jpg" alt=""></div>
                     <div class="description">
@@ -170,7 +167,7 @@
                         </div>
 
                         <div class="zones">
-                            <div class="title">Зонавання таунхаус Онікс</div>
+                            <div class="title">Зонування таунхаусу Онікс</div>
                             <ul>
                                 <li>1. Паркінг - 20 кв.м.</li>
                                 <li>2. Столова зона - 16 кв.м.</li>
@@ -183,7 +180,7 @@
                 </div>
 
                 <div class="plan">
-                    <div class="h2">Планування та вартість таунхауса <strong>Смарагд</strong>.S - 55 кв.м</div>
+                    <div class="h2">Планування та вартість таунхаусу <strong>Смарагд</strong>.S - 55 кв.м</div>
                     <div class="download"><a href="assets/files/gfe/kp_smaragd.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a></div>
                     <div class="image"><img src="assets/images/plan-1.jpg" alt=""></div>
                     <div class="description">
@@ -234,7 +231,7 @@
                         </div>
 
                         <div class="zones">
-                            <div class="title">Зонавання таунхаус Смарагд</div>
+                            <div class="title">Зонування таунхаусу Смарагд</div>
                             <ul>
                                 <li>1. Паркінг - 20 кв.м.</li>
                                 <li>2. Столова зона - 16 кв.м.</li>
