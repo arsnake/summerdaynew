@@ -246,6 +246,98 @@
         </div>
     </div>
 
+
+
+    <div class="row">
+        <div class="inrow">
+            <div class="about">
+                <p><b>Grand Family Village</b> – ексклюзивне рішення, що втілює ідею вигідного інвестування, поєднаного з комфортним відпочинком європейського рівня.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="inrow">
+            <div class="h2"><strong>Grand</strong> будівництво </div>
+            <div class="achievements">
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/041-cottage.svg" alt="Житлових корпусів">
+                        <div class="number">96 </div>
+                        <div class="text">приватних котеджів</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/007-coconut%20tree.svg" alt="Житлових корпусів">
+                        <div class="text">перша лінія моря</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/swimming-pool.svg" alt="Житлових корпусів">
+                        <div class="text">басейн</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/016-cctv.svg" alt="Житлових корпусів">
+                        <div class="text">охорона 24 години</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <div class="number">&nbsp;</div>
+                        <img src="assets/images/icons/013-parking-6.svg" alt="Житлових корпусів">
+                        <div class="text">паркінги</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/002-basketball%20court.svg" alt="Житлових корпусів">
+                        <div class="text">спортивні майданчики</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/024-playground.svg" alt="Житлових корпусів">
+                        <div class="text">дитячі майданчики</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/016-investing.svg" alt="Житлових корпусів">
+                        <div class="text">керуюча компанія</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <div class="number">&nbsp;</div>
+                        <img src="assets/images/icons/001-payment.svg" alt="Житлових корпусів">
+                        <div class="text">розстрочка від забудовника</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/012-dish.svg" alt="Житлових корпусів">
+                        <div class="text">кафе</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/008-skewer.svg" alt="Житлових корпусів">
+                        <div class="text">зона барбекю</div>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="content">
+                        <img src="assets/images/icons/040-trolley%20cart.svg" alt="Житлових корпусів">
+                        <div class="text">магазини</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="row">
         <div class="inrow">
             <div class="h2"><strong>Grand</strong> Галерея</div>
@@ -282,96 +374,11 @@
     </div>
 
     <div class="row">
-    <div class="inrow">
-        <div class="h2"><strong>Grand</strong> будівництво </div>
-        <div class="achievements">
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/041-cottage.svg" alt="Житлових корпусів">
-                    <div class="number">96 </div>
-                    <div class="text">приватних котеджів</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/007-coconut%20tree.svg" alt="Житлових корпусів">
-                    <div class="text">перша лінія моря</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/swimming-pool.svg" alt="Житлових корпусів">
-                    <div class="text">басейн</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/016-cctv.svg" alt="Житлових корпусів">
-                    <div class="text">охорона 24 години</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <div class="number">&nbsp;</div>
-                    <img src="assets/images/icons/013-parking-6.svg" alt="Житлових корпусів">
-                    <div class="text">паркінги</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/002-basketball%20court.svg" alt="Житлових корпусів">
-                    <div class="text">спортивні майданчики</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/024-playground.svg" alt="Житлових корпусів">
-                    <div class="text">дитячі майданчики</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/016-investing.svg" alt="Житлових корпусів">
-                    <div class="text">керуюча компанія</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <div class="number">&nbsp;</div>
-                    <img src="assets/images/icons/001-payment.svg" alt="Житлових корпусів">
-                    <div class="text">розстрочка від забудовника</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/012-dish.svg" alt="Житлових корпусів">
-                    <div class="text">кафе</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/008-skewer.svg" alt="Житлових корпусів">
-                    <div class="text">зона барбекю</div>
-                </div>
-            </div>
-            <div class="achievement">
-                <div class="content">
-                    <img src="assets/images/icons/040-trolley%20cart.svg" alt="Житлових корпусів">
-                    <div class="text">магазини</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-    <div class="row">
         <div class="inrow">
             <div class="h2">Grand Family Village- абсолютно новий формат відпочинку та бізнесу в Україні</div>
             <div class="about">
-                <p>
-96 приватних будинків будуть побудовані прогягом 2020-2025 року на території 3,5 Гектар безпосередньо на першій лінії Азовського моря. 
-Тут не буде гучних вечірок та дискотек, тут буде лише тихий сімейний відпочинок, лагідне тепле море та високоякісний сервіс від обслуговуючої компанії. 
-</p>
+                <p>Ідеальне як для сімейного відпочинку, так і для розваг, містечко буде складатись з 96 приватних будинків типу «таун - гаус» на мальовничому узбережжі Азовського моря. Мешканці та гості матимуть змогу цілком відчути переваги вдалого розташування, першокласної якості проживання та оздоровчих властивостей природи.</p>
+                <p>Купуючи нерухомість біля моря, Ви отримаєте безліч переваг, які можуть істотно покращити рівень вашого відпочинку та пасивного доходу</p>
             </div>
         </div>
     </div>
@@ -409,6 +416,17 @@
 						</div>
 					</div>
 			</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="inrow">
+            <div class="h2">Grand Family Village- абсолютно новий формат відпочинку та бізнесу в Україні</div>
+            <div class="about">
+                <p><b>Кожен інвестор</b> – наш партнер, який має голос у прийнятті інфраструктурних рішень. Тільки так ми можемо бути впевненими у вашому добробуті, а ви – будете впевненими в нас. Зробіть кожен день <b>Grandіозним</b>, ставши частиною родини <b>Grand Family Village.</b> </p>
             </div>
         </div>
     </div>
