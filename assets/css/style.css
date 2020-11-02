@@ -79,8 +79,9 @@ a.download-link i{ margin-right: 10px;font-size:14px;}
 .head .langs a:hover{background: var(--blue, #284086);}
 .head .langs a.active{color: var(--blue, #284086);background: #fff;display: block;border-bottom: none;border-left: 1px solid #ccc;}
 
-.gallery{/* margin-top: 40px; */}
-.gallery .owl-item{background:var(--apartments-blue, #61bcc1);}
+.gallery{ }
+.gallery .owl-item{}
+.gallery .owl-item a{background:var(--apartments-blue, #61bcc1);display: inline-block;margin: 30px;}
 .gallery .owl-item img{ opacity: 0.7;}
 
 .side-nav{background: #eee;position: fixed;left: 0;top: 0;width: 80px;bottom: 0;}
