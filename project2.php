@@ -432,12 +432,4 @@
     </div>
 
     <?php include './page_parts/projects.php'; ?>
-
-    <script>
-        $('ul li').each(function(i)
-        {
-            $(this).find('a').removeClass('active'); // This is your rel value
-            $('#buy').addClass('active');
-        });
-    </script>
     <?php include 'page_parts/footer.php'; ?>

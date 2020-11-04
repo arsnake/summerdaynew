@@ -28,11 +28,4 @@
 
 <?php include 'page_parts/buy_rent.php'; ?>
 <?php include 'page_parts/last_news.php'; ?>
-    <script>
-        $('ul li').each(function(i)
-        {
-            $(this).find('a').removeClass('active'); // This is your rel value
-            $('a[href$="news"]').addClass('active');
-        });
-    </script>
 <?php include 'page_parts/footer.php'; ?>
