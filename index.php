@@ -4,7 +4,7 @@
     <div class="inrow">
         <div class="video" style="position:relative;width:100%;">
 		<video controls preload="auto" muted class="video-js vjs-fluid" style="position:absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;" id="main-video" poster="assets/images/video-bg.webp" data-setup="{}">
-		    <source src="/assets/video/gf_bg2.mp4" type="video/mp4"/>
+		    <source src="/assets/videos/gf_bg2.mp4" type="video/mp4"/>
               <p class="vjs-no-js">
                  To view this video please enable JavaScript, and consider upgrading to a web browser that
                  <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
