@@ -36,6 +36,7 @@ if(($_SERVER['REQUEST_URI'] === '/about')) {
                             <span class="submit" onclick="$('.jsCallbackForm').addClass('submitted')">Зателефонуйте <i class="fa fa-phone"></i></span>
                         </div>
                     </div>
+                    <?php include 'icons_links.php'; ?>
                 </div>
                 <div class="col-25">
                     <div class="title">Меню</div>
@@ -44,7 +45,7 @@ if(($_SERVER['REQUEST_URI'] === '/about')) {
                 <div class="col-25">
                     <div class="title">Зареєстровані торгові марки</div>
                     <div class="footer-logos">
-                        <img src="assets/images/3logos.jpg" alt="Grand Family">
+                        <img src="assets/images/3logos.svg" alt="Grand Family">
                         <!--<img class="gfa" src="assets/images/gfa.svg" alt="Grand Family Apartments">
                         <img class="gfv" src="assets/images/gfv.svg" alt="Grand Family Village">
                         <img class="isatex" src="assets/images/logo-isatex.svg" alt="Isatex Invest Group">-->
@@ -57,68 +58,10 @@ if(($_SERVER['REQUEST_URI'] === '/about')) {
     </div>
 </div>
 
-
-<script src="assets/scripts/owlcarousel/owl.carousel.js"></script>
-<script src="assets/scripts/fancybox/jquery.fancybox.min.js"></script>
-<script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
-
-
-<script>
-    $('.project-gallery .owl-carousel').owlCarousel({
-        margin: 0,
-        nav:false,
-        loop:true,
-        dots: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    });
-
-    $('.news.owl-carousel').owlCarousel({
-        margin: 0,
-        nav:false,
-        loop:true,
-        dots: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    });
-    $('.gallery .owl-carousel').owlCarousel({
-        margin: 0,
-        nav:false,
-        loop:false,
-        dots:true,
-        // autoWidth:true,
-        lazyLoad: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    })
-</script>
+<link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link href="assets/font-awesome/css/all.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/font-awesome/css/all.css"></noscript>
 
 </body>
 </html>

@@ -96,31 +96,7 @@
             <div class="h2"><strong>Галерея</strong> Іsatex Invest Group</div>
             <div class="gallery">
                 <div class="owl-carousel owl-theme">
-                    <?php
-                    $directory = "assets/images/gallery/projects";    // Папка с изображениями
-                    $allowed_types=array("jpg", "png", "gif");  //разрешеные типы изображений
-                    $file_parts = array();
-                    $ext="";
-                    $title="";
-                    $i=0;
-                    //пробуем открыть папку
-                    $dir_handle = @opendir($directory) or die("Ошибка при открытии папки !!!");
-                    while ($file = readdir($dir_handle))    //поиск по файлам
-                    {
-                        if($file=="." || $file == "..") continue;  //пропустить ссылки на другие папки
-                        $file_parts = explode(".",$file);          //разделить имя файла и поместить его в массив
-                        $ext = strtolower(array_pop($file_parts));   //последний элеменет - это расширение
-
-
-                        if(in_array($ext,$allowed_types))
-                        {
-                            echo '<a data-fancybox="galleryUniqueId" data-caption="" href="'.$directory.'/'.$file.'"><img src="'.$directory.'/'.$file.'" class="item" title="'.$file.'" /></a>';
-                            $i++;
-                        }
-
-                    }
-                    closedir($dir_handle);  //закрыть папку
-                    ?>
+                    <?= Gallery::getSlidesHtml("assets/images/gallery/projects", "galleryUniqueId") ?>
                 </div>
             </div>
         </div>

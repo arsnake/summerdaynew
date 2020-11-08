@@ -12,7 +12,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at corporis culpa dolor doloribus earum fuga fugit id illum, impedit iusto maxime, natus nobis odio optio quod rerum vitae? Atque!</p>
                     </div>
                 </div>
-                <div class="col-50"><img src="assets/images/news/1.jpg" alt="Новий рівень житла"></div>
+                <div class="col-50"><img src="assets/images/news/1.webp" alt="Новий рівень житла"></div>
             </div>
 
 

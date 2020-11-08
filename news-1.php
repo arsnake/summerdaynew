@@ -19,7 +19,7 @@
                             <a href="https://www.youtube.com/channel/UC-VT5giBfkDIqzNpvIUHErw?view_as=subscriber" target="_blank">youtube каналі</a>. Переходьте, підписуйтесь, коментуйте. Гарного перегляду !</p>
                     </div>
                 </div>
-                <div class="col-50"><img src="assets/images/news/news-1.jpg" alt="Нове відео"></div>
+                <div class="col-50"><img src="assets/images/news/news-1.webp" alt="Нове відео"></div>
             </div>
 
 

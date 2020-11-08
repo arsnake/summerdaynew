@@ -21,7 +21,7 @@
             <div class="h2">Зонування загальної план-схеми</div>
             <div class="village-plan-scheme">
                 <div class="content">
-                    <div class="image"><img src="assets/images/project-renders/village-plan.jpg" alt=""></div>
+                    <div class="image"><img src="assets/images/project-renders/village-plan.webp" alt=""></div>
                     <div class="text">
                         <ul>
                             <li>
@@ -53,8 +53,7 @@
             <div class="village-plans">
                 <div class="plan">
                     <div class="h2">Планування та вартість таунхаусу <strong>Аквамарин</strong>. Загальна площа - 65 кв.м.</div>
-                    <div class="download"><a href="assets/files/gfe/kp_akvamarin.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a></div>
-                    <div class="image"><img src="assets/images/plan-2.jpg" alt=""></div>
+                    <div class="image"><img src="assets/images/plan-2.webp" alt=""></div>
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
@@ -112,13 +111,16 @@
                                 <li>5. Альтанки - 9 кв.м.</li>
                             </ul>
                         </div>
+                        <div class="download">
+                            <a href="assets/files/gfe/kp_akvamarin.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
+                            <?php include './page_parts/buy_button.php'; ?>
+                        </div>
                     </div>
                 </div>
 
                 <div class="plan">
                     <div class="h2">Планування та вартість таунхаусу <strong>Онікс</strong>. Загальна площа - 91 кв.м.</div>
-                    <div class="download"><a href="assets/files/gfe/kp_onyx.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a></div>
-                    <div class="image"><img src="assets/images/plan-3.jpg" alt=""></div>
+                    <div class="image"><img src="assets/images/plan-3.webp" alt=""></div>
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
@@ -176,13 +178,16 @@
                                 <li>5. Альтанки - 9 кв.м.</li>
                             </ul>
                         </div>
+                        <div class="download">
+                            <a href="assets/files/gfe/kp_onyx.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
+                            <?php include './page_parts/buy_button.php'; ?>
+                        </div>
                     </div>
                 </div>
 
                 <div class="plan">
                     <div class="h2">Планування та вартість таунхаусу <strong>Смарагд</strong>. Загальна площа - 55 кв.м.</div>
-                    <div class="download"><a href="assets/files/gfe/kp_smaragd.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a></div>
-                    <div class="image"><img src="assets/images/plan-1.jpg" alt=""></div>
+                    <div class="image"><img src="assets/images/plan-1.webp" alt=""></div>
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
@@ -239,6 +244,10 @@
                                 <li>4. Барбекю - 4 кв.м.</li>
                                 <li>5. Альтанки - 9 кв.м.</li>
                             </ul>
+                        </div>
+                        <div class="download">
+                            <a href="assets/files/gfe/kp_smaragd.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
+                            <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>
                 </div>
@@ -343,31 +352,7 @@
             <div class="h2"><strong>Grand</strong> Галерея</div>
             <div class="gallery">
                 <div class="owl-carousel owl-theme">
-                    <?php
-                    $directory = "assets/images/gallery/gfe";    // Папка с изображениями
-                    $allowed_types=array("jpg", "png", "gif");  //разрешеные типы изображений
-                    $file_parts = array();
-                    $ext="";
-                    $title="";
-                    $i=0;
-                    //пробуем открыть папку
-                    $dir_handle = @opendir($directory) or die("Ошибка при открытии папки !!!");
-                    while ($file = readdir($dir_handle))    //поиск по файлам
-                    {
-                        if($file=="." || $file == "..") continue;  //пропустить ссылки на другие папки
-                        $file_parts = explode(".",$file);          //разделить имя файла и поместить его в массив
-                        $ext = strtolower(array_pop($file_parts));   //последний элеменет - это расширение
-
-
-                        if(in_array($ext,$allowed_types))
-                        {
-                            echo '<a data-fancybox="galleryUniqueId1" data-caption="" href="'.$directory.'/'.$file.'"><img src="'.$directory.'/'.$file.'" class="item" title="'.$file.'" /></a>';
-                            $i++;
-                        }
-
-                    }
-                    closedir($dir_handle);  //закрыть папку
-                    ?>
+                    <?= Gallery::getSlidesHtml("assets/images/gallery/gfe", "galleryUniqueId1") ?>
                 </div>
             </div>
         </div>
