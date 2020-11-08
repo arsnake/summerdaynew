@@ -21,7 +21,7 @@
             <div class="h2">Зонування загальної план-схеми</div>
             <div class="village-plan-scheme">
                 <div class="content">
-                    <div class="image"><img src="assets/images/project-renders/village-plan.webp" alt=""></div>
+                    <div class="image"><img src="assets/images/project-renders/village-plan.jpg" alt=""></div>
                     <div class="text">
                         <ul>
                             <li>
@@ -53,7 +53,7 @@
             <div class="village-plans">
                 <div class="plan">
                     <div class="h2">Планування та вартість таунхаусу <strong>Аквамарин</strong>. Загальна площа - 65 кв.м.</div>
-                    <div class="image"><img src="assets/images/plan-2.webp" alt=""></div>
+                    <div class="image"><img src="assets/images/plan-2.jpg" alt=""></div>
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
@@ -112,7 +112,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_akvamarin.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_akvamarin.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
                             <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
 
                 <div class="plan">
                     <div class="h2">Планування та вартість таунхаусу <strong>Онікс</strong>. Загальна площа - 91 кв.м.</div>
-                    <div class="image"><img src="assets/images/plan-3.webp" alt=""></div>
+                    <div class="image"><img src="assets/images/plan-3.jpg" alt=""></div>
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
@@ -179,7 +179,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_onyx.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_onyx.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
                             <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
 
                 <div class="plan">
                     <div class="h2">Планування та вартість таунхаусу <strong>Смарагд</strong>. Загальна площа - 55 кв.м.</div>
-                    <div class="image"><img src="assets/images/plan-1.webp" alt=""></div>
+                    <div class="image"><img src="assets/images/plan-1.jpg" alt=""></div>
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
@@ -246,7 +246,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_smaragd.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_smaragd.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
                             <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>

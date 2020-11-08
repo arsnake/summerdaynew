@@ -23,8 +23,8 @@ a.download-link i{ margin-right: 10px;font-size:14px;}
 .desctop_hidden{ display: none;}
 .mobile_hidden{ display: inline-block; vertical-align: middle;}
 
-#header_controls_toggle{position: absolute;top: 40px;right: 20px;z-index: 10;cursor: pointer;width: 20px;height: 20px;background: url(../../assets/images/icons/menu_open_white_black.svg)no-repeat left top;background-size:  contain;}
-#close_mobile_menu{position: absolute;top: 25px;right: 20px;z-index: 10;cursor: pointer;width: 20px;height: 20px;background: url(../../assets/images/icons/menu_close.svg)no-repeat left top;background-size:  contain;}
+#header_controls_toggle{position: absolute;top: 40px;right: 20px;z-index: 10;cursor: pointer;width: 20px;height: 20px;background: url(/assets/images/icons/menu_open_white_black.svg)no-repeat left top;background-size:  contain;}
+#close_mobile_menu{position: absolute;top: 25px;right: 20px;z-index: 10;cursor: pointer;width: 20px;height: 20px;background: url(/assets/images/icons/menu_close.svg)no-repeat left top;background-size:  contain;}
 
 .will-be-grand{position: absolute;right:40px;bottom: 20px;text-transform: uppercase;font-size: 12px;}
 
@@ -120,7 +120,7 @@ a.download-link i{ margin-right: 10px;font-size:14px;}
 .icon-links a.facebook-messenger:hover{color:#0078FF; }
 
 
-.video{display:block;/* height: 380px; */background: url(/assets/images/plan-2.webp) no-repeat  0px 0px, black;background-size: cover;/* margin: 20px; */position: relative;color:#fff;}
+.video{display:block;/* height: 380px; */background: url(/assets/images/plan-2.jpg) no-repeat  0px 0px, black;background-size: cover;/* margin: 20px; */position: relative;color:#fff;}
 .video .glass{background: rgb(11 19 77 / 75%);/* height: calc(100% - 80px); */padding:40px;position: relative;}
 .video .isatex-logo{position: absolute;height: 94px;right: 40px;bottom:40px;}
 .video .content{margin:0 auto;/* display: table-cell; */}
@@ -132,7 +132,7 @@ a.download-link i{ margin-right: 10px;font-size:14px;}
 .brands-links{ font-size:0;}
 .brands-links .inrow{ height:300px;}
 .brands-links .col-50, .brands-links .col-25{font-size:initial;}
-.brands-links .isatex-link{display:inline-block;vertical-align: top;width: 50%;background: url(../../assets/images/isatex-photo-3.webp) no-repeat center;background-size: cover;height: 100%;}
+.brands-links .isatex-link{display:inline-block;vertical-align: top;width: 50%;background: url(/assets/images/isatex-photo-3.jpg) no-repeat center;background-size: cover;height: 100%;}
 .brands-links .isatex-link .glass{height: 100%;width:100%;display: table;background: rgb(40 64 134 / 50%);}
 .brands-links .isatex-link .content{display: table-cell;vertical-align:bottom;padding: 0 40px 40px 40px;cursor:pointer;}
 .brands-links .isatex-link .content:hover{padding-bottom:50px; }
@@ -194,8 +194,8 @@ a.download-link i{ margin-right: 10px;font-size:14px;}
 .images-links .inrow{ height:300px;}
 .images-links .col-50{font-size:initial;}
 .images-links .link{display:inline-block;vertical-align: top;width: 50%;height: 100%; background: #ccc;}
-.images-links .link.link-1{ background: url(../../assets/images/isatex-photo-2.webp) no-repeat center;background-size: cover;}
-.images-links .link.link-2{background: url(../../assets/images/isatex-photo-1.webp) no-repeat center;background-size: cover;text-align: right;}
+.images-links .link.link-1{ background: url(/assets/images/isatex-photo-2.jpg) no-repeat center;background-size: cover;}
+.images-links .link.link-2{background: url(/assets/images/isatex-photo-1.jpg) no-repeat center;background-size: cover;text-align: right;}
 .images-links .link .glass{height: 100%;width:100%;display: table;background: rgb(40 64 134 / 50%);}
 .images-links .link .content{display: table-cell;vertical-align:bottom;padding: 0 40px 40px 40px;cursor:pointer;}
 .images-links .link .content:hover{padding-bottom:50px; }
@@ -335,7 +335,7 @@ input{padding: 8px 15px;width: 300px;max-width: calc(100% - 30px);border-radius:
 }
 
 .second-queue {
-    background: center / cover no-repeat url(../../assets/images/2ndqueue.webp);
+    background: center / cover no-repeat url(/assets/images/2ndqueue.jpg);
 }
 
 .vjs-has-started .vjs-control-bar {
