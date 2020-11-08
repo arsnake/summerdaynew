@@ -112,7 +112,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_akvamarin.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_akvamarin.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
                             <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_onyx.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_onyx.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
                             <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_smaragd.pdf" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_smaragd.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
                             <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>

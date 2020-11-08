@@ -46,7 +46,7 @@
                             </div>
                         </div>
                         <div class="download">
-                            <a href="/assets/files/gfa/kp_26.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 26 кв.м. PDF</a>
+                            <a href="/assets/files/gfa/kp_26.jpg" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 26 кв.м. PDF</a>
                             <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                         <div class="download">
-                            <a href="/assets/files/gfa/kp_49.pdf" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 49 кв.м. PDF</a>
+                            <a href="/assets/files/gfa/kp_49.jpg" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 49 кв.м. PDF</a>
                             <?php include './page_parts/buy_button.php'; ?>
                         </div>
                     </div>
