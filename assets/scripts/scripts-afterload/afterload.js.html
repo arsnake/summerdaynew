@@ -1,0 +1,126 @@
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- From header -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5DZQKBS');
+</script>
+<!-- End Google Tag Manager -->
+
+
+
+<link href="assets/scripts/videojs/video-js.css" rel="stylesheet" />
+
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="assets/scripts/videojs/videojs-ie8.min.js"></script>
+<link rel="stylesheet" href="assets/scripts/fancybox/jquery.fancybox.min.css">
+
+
+<!-- TODO: скачать шрифты скачать и подключить с сервера, а не с удалёнки -->
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/scripts/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/scripts/owlcarousel/owl.theme.default.min.css">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZQKBS"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>document.body.classList.remove('js-stop-transition')// to prevent first init css transitions</script>
+
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+<!-- From footer -->
+
+
+<script src="assets/scripts/fancybox/jquery.fancybox.min.js"></script>
+<script src="assets/scripts/videojs/video.min.js"></script>
+
+<script src="assets/scripts/owlcarousel/owl.carousel.js"></script>
+<script>
+    $('.project-gallery .owl-carousel').owlCarousel({
+        margin: 0,
+        nav:false,
+        loop:true,
+        dots: true,
+        lazyLoad: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+
+    $('.news.owl-carousel').owlCarousel({
+        margin: 0,
+        nav:false,
+        loop:true,
+        dots: true,
+        lazyLoad: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:4
+            }
+        }
+    });
+    $('.gallery .owl-carousel').owlCarousel({
+        margin: 0,
+        nav:false,
+        loop:false,
+        dots:true,
+        // autoWidth:true,
+        lazyLoad: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+</script>
+
+<script>
+    // Get the video
+    var video = document.getElementById("main-video");
+
+    // Get the button
+    var btn = document.getElementById("main-video-control");
+
+    // Pause and play the video, and change the button text
+    function mainVideoControl() {
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
+
+</script>
+
