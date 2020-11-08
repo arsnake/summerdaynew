@@ -19,7 +19,7 @@
                             <a href="/index.php?#subscribe">тут</a>, обіцяємо, буде цікаво. </p>
                     </div>
                 </div>
-                <div class="col-50"><img src="assets/images/news/news-2.webp" alt="Початок підготовки до будівництва"></div>
+                <div class="col-50"><img src="assets/images/news/news-2.jpg" alt="Початок підготовки до будівництва"></div>
             </div>
 
 

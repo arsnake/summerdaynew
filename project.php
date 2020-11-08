@@ -28,7 +28,7 @@
                     <div class="variant">
                         <div class="title">Планування 26 кв.м.</div>
                         <div class="image">
-                            <img class="item" src="assets/images/project-renders/render_1_1.webp" alt="alt">
+                            <img class="item" src="assets/images/project-renders/render_1_1.jpg" alt="alt">
                         </div>
                         <div class="description">
                             <div class="text">
@@ -52,7 +52,7 @@
                     </div>
                     <div class="variant">
                         <div class="title">Планування 49 кв.м.</div>
-                        <div class="image"><img src="assets/images/project-renders/render_2_2.webp" alt="Житлових корпусів"></div>
+                        <div class="image"><img src="assets/images/project-renders/render_2_2.png" alt="Житлових корпусів"></div>
                         <div class="description">
                             <div class="text">
                                 <p><strong>Без ремонту:</strong></p>
