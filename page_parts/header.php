@@ -23,15 +23,15 @@
     <!-- TODO: мета каноникал -->
 
     <?php
-        $csVersion = 9;
-        $cssContent = '<link rel="stylesheet" type="text/css" href="assets/css/style.css?v='.$csVersion.'"/>';
+//        $csVersion = 10;
+//        $cssContent = '<link rel="stylesheet" type="text/css" href="assets/css/style.css?v='.$csVersion.'"/>';
 
 //        $cssContent = '<link href="assets/css/style.css?v='.$csVersion.'" rel="preload" as="style" onload="this.rel=\'stylesheet\'">';
 //        $cssContent .= '<noscript><link rel="stylesheet" href="assets/css/style.css?v='.$csVersion.'"></noscript>';
 
-//        $cssContent = '';
-//        $cssContent .= file_get_contents('./assets/css/style.css');
-//        $cssContent = "<style>$cssContent</style>";
+        $cssContent = '';
+        $cssContent .= file_get_contents('./assets/css/style.css');
+        $cssContent = "<style>$cssContent</style>";
         echo $cssContent;
 
         $jsContent = '';
