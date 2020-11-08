@@ -24,9 +24,13 @@
 
     <?php
 //        $cssContent = '<link rel="stylesheet" type="text/css" href="assets/css/style.css?v=7"/>';
-        $cssContent = '';
-        $cssContent .= file_get_contents('./assets/css/style.css');
-        $cssContent = "<style>$cssContent</style>";
+
+        $cssContent = '<link href="assets/css/style.css?v=7" rel="preload" as="style" onload="this.rel=\'stylesheet\'">';
+        $cssContent .= '<noscript><link rel="stylesheet" href="assets/css/style.css?v=7"></noscript>';
+
+//        $cssContent = '';
+//        $cssContent .= file_get_contents('./assets/css/style.css');
+//        $cssContent = "<style>$cssContent</style>";
         echo $cssContent;
 
         $jsContent = '';
