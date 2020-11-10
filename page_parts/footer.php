@@ -21,21 +21,7 @@ if(($_SERVER['REQUEST_URI'] === '/about')) {
                 </div>
                 <div class="col-25">
                     <div class="title">Зв'язок</div>
-                    <div class="callback-form jsCallbackForm">
-                        <div class="text">
-                            Залиште свій контакт і ми зателефонуємо
-                        </div>
-                        <div class="callback">Дякуємо за звернення, наші менеджери зв'яжуться з вами у найближчий час</div>
-                        <div class="content">
-                            <label for="">Номер телефону</label>
-                            <input type="text" name="phone">
-                        </div>
-                        <div class="controls">
-                            <!-- TODO: ajax сделать ajax отправку и сохранение данных формы на бекенде  -->
-                            <!-- TODO: слать заявку на вайбер  -->
-                            <span class="submit" onclick="$('.jsCallbackForm').addClass('submitted')">Зателефонуйте <i class="fa fa-phone"></i></span>
-                        </div>
-                    </div>
+                    <?= CallbackForm::getRecallHtml('footerCallback') ?>
                     <?php include 'icons_links.php'; ?>
                 </div>
                 <div class="col-25">

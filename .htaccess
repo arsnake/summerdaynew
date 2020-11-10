@@ -20,6 +20,8 @@ RewriteRule ^news-2$ news-2.php [L]
 RewriteRule ^news-3$ news-3.php [L]
 RewriteRule ^news-4$ news-4.php [L]
 
+RewriteRule ^api$ apiV/index.php [L]
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 

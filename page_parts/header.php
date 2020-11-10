@@ -38,6 +38,7 @@
         $jsContent .= file_get_contents('./assets/scripts/jquery-3.5.1.min.js');
         $jsContent .= 'jQuery.event.special.touchstart = {setup: function( _, ns, handle ) {this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });}};';
         $jsContent .= file_get_contents('./assets/scripts/scripts-afterload/index.js');
+        $jsContent .= file_get_contents('./assets/scripts/recall.js');
         $jsContent = "<script>$jsContent</script>";
         echo $jsContent;
     ?>
@@ -51,4 +52,5 @@
 
 <body  class="js-stop-transition">
 <?php require_once './Classes/Gallery.php'; ?>
+<?php require_once './Classes/CallbackForm.php'; ?>
 <?php include 'header_nav.php'; ?>
