@@ -39,9 +39,7 @@ if(!isset($_POST['func']) || !$_POST['func']){
         $send_from_address = env('systemMessagesEmail');
         if($request_targets){
             foreach ($request_targets as $send_to_address){
-                echo 1;
                 Mail::sendMail($send_to_address, $title, $send_from_address, $message);
-                echo 2;
             }
         }
 //        Viber::sendMessage(env('callCenterViberUser'), $message);

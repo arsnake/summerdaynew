@@ -2,13 +2,9 @@
 
 class Mail
 {
-
-//--------------------------------------------------------------------------------------------------------
-//-------------------------------функция отправки письма--------------------
-
     public static function sendMail($to, $subj, $from, $message)
     {
-
+echo '3';
         $charset = 'utf8';//кодировка письма
         $subj = self::subj_encode($subj, $charset);//кодируем поле "Тема"
         $header = "MIME-Version: 1.0\r\n";
@@ -25,7 +21,7 @@ class Mail
         $body .= "Content-Type: text/html; charset=$charset\r\n";
         $body .= "Content-Transfer-Encoding: 8bit\r\n\n";
         $body .= "$message\r\n";
-
+        echo '4';
         //Перечисляем все загруженые файлы и создаем для каждого отдельный Header.........
 
         if (isset($_FILES['upload']['tmp_name'])) {
@@ -34,16 +30,19 @@ class Mail
             }
         }
 
-
+        echo '5';
         $body .= "--" . $boundary . "--\n"; /* добавление двух дефисов ДО и ПОСЛЕ для закрывающего разделителя ОБЯЗАТЕЛЬНО! */
 
         //	echo"TO:".$to."<br />".$subj."<br />".$body."<br />".$header;
         if (mail($to, $subj, $body, $header)) {
+            echo '6';
             return ("Письмо отправлено.");
 
         } else {
+            echo '7';
             return ("Произошла ошибка при отправке письма.");
         }
+        echo '8';
     }
 
 //--------------------------------------------------------------------------------------------------------

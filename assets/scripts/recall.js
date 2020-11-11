@@ -2,7 +2,7 @@ function sendRequestCall(formName){
     const form = $(`.jsCallbackForm_${formName}`);
     const userContact = form.find('input.jsContact').val();
     const formTitle = form.find('input.jsFormTitle').val();
-console.log(`formTitle`, formTitle);
+
     $.post('/api', {
         'userContact': userContact,
         'formName': formName,
