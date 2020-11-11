@@ -13,6 +13,8 @@
             <div class="about">
                 <p>Усе буде <strong>Grand!</strong></p>
             </div>
+
+            <div class="header-bg village"></div>
         </div>
     </div>
 
@@ -57,42 +59,19 @@
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
-                            <table cellspacing="0" cellpadding="0" border-collapsse>
-                                <thead>
-                                <tr>
-                                    <td></td>
-                                    <td>Оплата 100%</td>
-                                    <td>Розсрочка 2 роки, перший внесок 30%</td>
-                                    <td>Розсрочка 3 роки, перший внесок 20%</td>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1 черга: Червень 2022 - Липень 2023</td>
-                                    <td>42 250 у.о.*<br>
-                                        650 у.о.*/кв. м.
-                                    </td>
-                                    <td>50 050 у.о.*<br>
-                                        770 у.о.*/кв. м.
-                                    </td>
-                                    <td>53 300 у.о.*<br>
-                                        820 у.о.*/кв. м.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2 черга: Червень 2023 - Липень 2024</td>
-                                    <td>38 350 у.о.*<br>
-                                        590 у.о.*/кв. м.
-                                    </td>
-                                    <td>45 500 у.о.*<br>
-                                        700 у.о.*/кв. м.
-                                    </td>
-                                    <td>48 425 у.о.*<br>
-                                        745 у.о.*/кв. м.
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                            <div class="village-price-desc">
+                                <p><strong>1 черга: Червень 2022 - Липень 2023</strong></p>
+                                <p>Оплата 100%<br><i>42 250 у.о.*<br>650 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 2 роки, перший внесок 30%<br><i>50 050 у.о.*<br>770 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 3 роки, перший внесок 20%<br><i>53 300 у.о.*<br>820 у.о.*/кв. м.</i></p>
+                            </div>
+
+                            <div class="village-price-desc">
+                                <p><strong>2 черга: Червень 2023 - Липень 2024</strong></p>
+                                <p>Оплата 100%<br><i>42 250 у.о.*<br>38 350 у.о.*<br>590 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 2 роки, перший внесок 30%<br><i>45 500 у.о.*<br>700 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 3 роки, перший внесок 20%<br><i>48 425 у.о.*<br>745 у.о.*/кв. м.</i></p>
+                            </div>
                         </div>
 
                         <div class="renovation">
@@ -113,7 +92,8 @@
                         </div>
                         <div class="download">
                             <a href="assets/files/gfe/kp_akvamarin.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
-                            <?php include './page_parts/buy_button.php'; ?>
+                            <?= CallbackModal::getHtml('village65', 'Планування Аквамарин') ?>
+                            <?= CallbackModalButton::getHtml('village65') ?>
                         </div>
                     </div>
                 </div>
@@ -124,42 +104,19 @@
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
-                            <table cellspacing="0" cellpadding="0" border-collapsse>
-                                <thead>
-                                <tr>
-                                    <td></td>
-                                    <td>Оплата 100%</td>
-                                    <td>Розсрочка 2 роки, перший внесок 30%</td>
-                                    <td>Розсрочка 3 роки, перший внесок 20%</td>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1 черга: Червень 2022 - Липень 2023</td>
-                                    <td>59 150 у.о.*<br>
-                                        650 у.о.*/кв. м.
-                                    </td>
-                                    <td>70 070 у.о.*<br>
-                                        770 у.о.*/кв. м.
-                                    </td>
-                                    <td>74 620 у.о.*<br>
-                                        820 у.о.*/кв. м.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2 черга: Червень 2023 - Липень 2024</td>
-                                    <td>53 690 у.о.*<br>
-                                        590 у.о.*/кв. м.
-                                    </td>
-                                    <td>63 700 у.о.*<br>
-                                        700 у.о.*/кв. м.
-                                    </td>
-                                    <td>67 795 у.о.*<br>
-                                        745 у.о.*/кв. м.
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                            <div class="village-price-desc">
+                                <p><strong>1 черга: Червень 2022 - Липень 2023</strong></p>
+                                <p>Оплата 100%<br><i>59 150 у.о.*<br>650 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 2 роки, перший внесок 30%<br><i>70 070 у.о.*<br>770 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 3 роки, перший внесок 20%<br><i>74 620 у.о.*<br>820 у.о.*/кв. м.</i></p>
+                            </div>
+
+                            <div class="village-price-desc">
+                                <p><strong>2 черга: Червень 2023 - Липень 2024</strong></p>
+                                <p>Оплата 100%<br><i>53 690 у.о.*<br>590 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 2 роки, перший внесок 30%<br><i>63 700 у.о.*<br>700 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 3 роки, перший внесок 20%<br><i>67 795 у.о.*<br>745 у.о.*/кв. м.</i></p>
+                            </div>
                         </div>
 
                         <div class="renovation">
@@ -180,7 +137,8 @@
                         </div>
                         <div class="download">
                             <a href="assets/files/gfe/kp_onyx.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
-                            <?php include './page_parts/buy_button.php'; ?>
+                            <?= CallbackModal::getHtml('village91', 'Планування Онікс') ?>
+                            <?= CallbackModalButton::getHtml('village91') ?>
                         </div>
                     </div>
                 </div>
@@ -191,42 +149,19 @@
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
-                            <table cellspacing="0" cellpadding="0" border-collapsse>
-                                <thead>
-                                <tr>
-                                    <td></td>
-                                    <td>Оплата 100%</td>
-                                    <td>Розсрочка 2 роки, перший внесок 30%</td>
-                                    <td>Розсрочка 3 роки, перший внесок 20%</td>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1 черга: Червень 2022 - Липень 2023</td>
-                                    <td>35 750 у.о.*<br>
-                                        650 у.о.*/кв. м.
-                                    </td>
-                                    <td>42 350 у.о.*<br>
-                                        770 у.о.*/кв. м.
-                                    </td>
-                                    <td>45 100 у.о.*<br>
-                                        820 у.о.*/кв. м.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2 черга: Червень 2023 - Липень 2024</td>
-                                    <td>32 450 у.о.*<br>
-                                        590 у.о.*/кв. м.
-                                    </td>
-                                    <td>35 500 у.о.*<br>
-                                        700 у.о.*/кв. м.
-                                    </td>
-                                    <td>40 975 у.о.*<br>
-                                        745 у.о.*/кв. м.
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                            <div class="village-price-desc">
+                                <p><strong>1 черга: Червень 2022 - Липень 2023</strong></p>
+                                <p>Оплата 100%<br><i>35 750 у.о.*<br>650 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 2 роки, перший внесок 30%<br><i>42 350 у.о.*<br>770 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 3 роки, перший внесок 20%<br><i>45 100 у.о.*<br>820 у.о.*/кв. м.</i></p>
+                            </div>
+
+                            <div class="village-price-desc">
+                                <p><strong>2 черга: Червень 2023 - Липень 2024</strong></p>
+                                <p>Оплата 100%<br><i>32 450 у.о.*<br>590 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 2 роки, перший внесок 30%<br><i>35 500 у.о.*<br>700 у.о.*/кв. м.</i></p>
+                                <p>Розсрочка 3 роки, перший внесок 20%<br><i>40 975 у.о.*<br>745 у.о.*/кв. м.</i></p>
+                            </div>
                         </div>
 
                         <div class="renovation">
@@ -247,7 +182,8 @@
                         </div>
                         <div class="download">
                             <a href="assets/files/gfe/kp_smaragd.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
-                            <?php include './page_parts/buy_button.php'; ?>
+                            <?= CallbackModal::getHtml('village55', 'Планування Смарагд') ?>
+                            <?= CallbackModalButton::getHtml('village55') ?>
                         </div>
                     </div>
                 </div>

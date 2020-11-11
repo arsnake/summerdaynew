@@ -28,7 +28,7 @@
                     <div class="variant">
                         <div class="title">Планування 26 кв.м.</div>
                         <div class="image">
-                            <img class="item" src="assets/images/project-renders/render_1_1.jpg" alt="alt">
+                            <img class="item" src="assets/images/project-renders/render_1_3.jpg" alt="alt">
                         </div>
                         <div class="description">
                             <div class="text">
@@ -47,7 +47,8 @@
                         </div>
                         <div class="download">
                             <a href="/assets/files/gfa/kp_26.jpg" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 26 кв.м. PDF</a>
-                            <?php include './page_parts/buy_button.php'; ?>
+                            <?= CallbackModal::getHtml('apartments26', 'Планування 26 кв.м.') ?>
+                            <?= CallbackModalButton::getHtml('apartments26') ?>
                         </div>
                     </div>
                     <div class="variant">
@@ -70,7 +71,8 @@
                         </div>
                         <div class="download">
                             <a href="/assets/files/gfa/kp_49.jpg" target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 49 кв.м. PDF</a>
-                            <?php include './page_parts/buy_button.php'; ?>
+                            <?= CallbackModal::getHtml('apartments49', 'Планування 49 кв.м.') ?>
+                            <?= CallbackModalButton::getHtml('apartments49') ?>
                         </div>
                     </div>
                 </div>

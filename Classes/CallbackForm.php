@@ -4,7 +4,7 @@ require_once 'Template.php';
 
 class CallbackForm
 {
-    public static function getRecallHtml($form){
-        return Template::view(['formName' => $form], 'page_parts/templates/callback-form.html');
+    public static function getHtml($formName, $title = ''){
+        return Template::view(['formName' => $formName, 'title' => $title], 'page_parts/templates/callback-form.html');
     }
 }
