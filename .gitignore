@@ -6,3 +6,4 @@ vendor/
 .idea/
 /idea/
 todo.md
+.htaccess

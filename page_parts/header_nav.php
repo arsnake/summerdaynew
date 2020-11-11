@@ -15,13 +15,13 @@
                 <!-- TODO: здесь реализуй сортировку чтобы активный язык был первым -->
                 <!-- TODO: активной ссылке добавлять класс .active -->
                 <!-- TODO: микроразметка -->
-                <div class="langs">
+                <!-- div class="langs">
                     <ul>
                         <li><a href="#" class="active">RU</a></li>
                         <li><a href="#">UA</a></li>
                         <li><a href="#">EN</a></li>
                     </ul>
-                </div>
+                </div -->
             </div>
             <div class="side-nav">
                 <!-- TODO: микроразметка -->

@@ -49,6 +49,5 @@ if(($_SERVER['REQUEST_URI'] === '/about')) {
 <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link href="assets/font-awesome/css/all.css" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="assets/font-awesome/css/all.css"></noscript>
-
 </body>
 </html>

@@ -91,7 +91,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_akvamarin.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_akvamarin.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
                             <?= CallbackModal::getHtml('village65', 'Планування Аквамарин') ?>
                             <?= CallbackModalButton::getHtml('village65') ?>
                         </div>
@@ -136,7 +136,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_onyx.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_onyx.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
                             <?= CallbackModal::getHtml('village91', 'Планування Онікс') ?>
                             <?= CallbackModalButton::getHtml('village91') ?>
                         </div>
@@ -181,7 +181,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_smaragd.jpg" target="_blank" class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_smaragd.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
                             <?= CallbackModal::getHtml('village55', 'Планування Смарагд') ?>
                             <?= CallbackModalButton::getHtml('village55') ?>
                         </div>

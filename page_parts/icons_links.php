@@ -10,7 +10,7 @@
         <ul>
             <li><a href="viber://chat?number=%2B380977942020" class="viber fab fa-viber" title="Viber" target="_blank"></a></li>
             <li><a href="whatsapp://send?phone=%2B380977942020" class="wats-app fab fa-whatsapp" title="Whatsapp" target="_blank"></a></li>
-            <li><a href="#" class="telegram fab fa-telegram" title="Telegram" target="_blank"></a></li>
+            <!--li><a href="#" class="telegram fab fa-telegram" title="Telegram" target="_blank"></a></li-->
             <li><a href="https://www.messenger.com/t/primorsk.apart" class="facebook-messenger fab fa-facebook-messenger" title="Messenger" target="_blank"></a></li>
         </ul>
     </div>

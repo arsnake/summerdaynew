@@ -3,8 +3,9 @@
 <div class="row">
     <div class="inrow">
         <div class="video" style="position:relative;width:100%;">
-		<video controls preload="auto" muted class="video-js vjs-fluid" style="position:absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;" id="main-video" poster="assets/images/video-bg.jpg" data-setup="{}">
+		<video preload="auto" muted class="video-js vjs-fluid" style="position:absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;" id="main-video" playsinline autoplay loop data-setup="{}">
 		    <source src="/assets/videos/gf_bg2.mp4" type="video/mp4"/>
+		    <source src="/assets/videos/gf_bg2.webm" type="video/webm"/>
               <p class="vjs-no-js">
                  To view this video please enable JavaScript, and consider upgrading to a web browser that
                  <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
@@ -15,7 +16,7 @@
                     <div class="title">Апартаменти біля моря</div>
                     <div class="controls">
                         <!-- TODO: при клике на кнопку - открывать видео во весь екран -->
-							<span id="main-video-control" onclick="mainVideoControl()" class="play fa fa-play"></span>
+							<span id="main-video-control" class="play fa fa-play c-play"></span>
                     </div>
                 </div>
                 <!--<img class="isatex-logo" src="assets/images/logo-isatex-light.svg" alt="Isatex Invest Group">-->
@@ -79,4 +80,10 @@
         </div>
     </div>
 
+    <div class="c-video-modal" data-video-id="oj45W4szziA">
+        <div class="c-video-modal__close"></div>
+        <div id="player-container"></div>
+    </div>
+
+<script src="assets/scripts/youtube.js"></script>
 <?php include 'page_parts/footer.php'; ?>
