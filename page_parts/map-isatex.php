@@ -1,6 +1,6 @@
 <div class="row">
-    <div class="inrow">
-        <div class="map isatex">
+    <div class="inrow map isatex">
+        <div class="map_content">
             <div class="h2">Grand Map</div>
             <div class="google-link isatex">
                 <div class="title"><i class="fa fa-map-marker-alt"></i>Isatex Invest Group</div>

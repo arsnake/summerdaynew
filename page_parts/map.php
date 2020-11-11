@@ -1,6 +1,6 @@
 <div class="row">
-    <div class="inrow">
-        <div class="map">
+    <div class="inrow map">
+        <div class="map_content">
             <div class="h2">Grand Map</div>
             <div class="google-link apartments">
                 <div class="title"><i class="fa fa-map-marker-alt"></i>Grand Family Apartments</div>

@@ -21,18 +21,27 @@ if(!isset($_POST['func']) || !$_POST['func']){
 
     function env($param){
         $config =  [
-            'callCenterEmail' => 'sasha_kravchenko_@ukr.net',
-            'systemMessagesEmail' => 'alex@msoft.ua',
+            'callCenterEmails' => [
+//                'sales@summer.day.ua'
+                'sasha_kravchenko_@ukr.net'
+            ],
+            'systemMessagesEmail' => 'sales@summer.day.ua',
         ];
 
         return isset($config[$param]) ? $config[$param] : null;
     }
 
     function sendRequestCall(){
-        $message = "Заявка на звонок с формы {$_POST['formName']}. Контакт: {$_POST['userContact']}";
-        $title = 'Test mailing from form';
+        $message = "Заявка на звонок: {$_POST['formTitle']}. Контакт: {$_POST['userContact']}";
+        $title = $message;
 
-        Mail::sendMail(env('callCenterEmail'), $title, env('systemMessagesEmail'), $message);
+        $request_targets = env('callCenterEmails');
+        $send_from_address = env('systemMessagesEmail');
+        if($request_targets){
+            foreach ($request_targets as $send_to_address){
+                Mail::sendMail($send_to_address, $title, $send_from_address, $message);
+            }
+        }
 //        Viber::sendMessage(env('callCenterViberUser'), $message);
 
     }
