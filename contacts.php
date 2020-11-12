@@ -14,8 +14,8 @@
                     <div class="title">Головний офіс, департамент із продажу:</div>
                     <div class="contacts">
                         <a href="https://goo.gl/maps/h2j2iRSXateW1cx37" target="_blank"><i class="fa fa-map"></i>Україна, Запорізька область, 72319,<br>м. Мелітополь, вул. Гетьманська, 109, оф. 11</a>
-                        <a href="tel:+380977642020"><i class="fa fa-phone"></i>+38-097-764-20-20<span class="description">Grand Family Apartments</span></a>
-                        <a href="tel:+380977641919"><i class="fa fa-phone"></i>+38-097-764-19-19<span class="description">Grand Family Village</span></a>
+                        <a href="tel:+380977942020"><i class="fa fa-phone"></i>+38-097 794-20-20<span class="description">Grand Family Apartments</span></a>
+                        <a href="tel:+380977941919"><i class="fa fa-phone"></i>+38-097 794-19-19<span class="description">Grand Family Village</span></a>
                         <a href="mailto:sales@summer.day.ua"><i class="far fa-envelope"></i>sales@summer.day.ua</a>
                     </div>
                 </div>

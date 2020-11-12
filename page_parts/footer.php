@@ -32,10 +32,10 @@ if(($_SERVER['REQUEST_URI'] === '/about')) {
                 <div class="col-25">
                     <div class="title">Зареєстровані торгові марки</div>
                     <div class="footer-logos">
-                        <img src="assets/images/3logos.svg" alt="Grand Family">
-                        <!--<img class="gfa" src="assets/images/gfa.svg" alt="Grand Family Apartments">
+                        <!--<img src="assets/images/3logos.svg" alt="Grand Family">-->
+                        <img class="gfa" src="assets/images/gfa.svg" alt="Grand Family Apartments">
                         <img class="gfv" src="assets/images/gfv.svg" alt="Grand Family Village">
-                        <img class="isatex" src="assets/images/logo-isatex.svg" alt="Isatex Invest Group">-->
+                        <img class="isatex" src="assets/images/logo-isatex.svg" alt="Isatex Invest Group">
                     </div>
                 </div>
             </div>
