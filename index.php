@@ -27,14 +27,14 @@
 
 <div class="row brands-links">
     <div class="inrow">
-        <div class="isatex-link col-50">
+        <a href="/about" class="isatex-link col-50">
             <div class="glass">
                 <span class="content">
                     <img class="isatex-logo" src="assets/images/logo-isatex-light.svg" alt="Isatex Invest Group">
                     <div class="title">Про нас</br>Isatex INVEST Group</div>
                 </span>
             </div>
-        </div>
+        </a>
         <div class="col-25">
             <a href="/project" class="gfa col-25">
                 <span class="content">

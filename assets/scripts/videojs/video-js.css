@@ -338,7 +338,7 @@
   vertical-align: top;
   box-sizing: border-box;
   color: #fff;
-  background-color: #000;
+  background-color: #283352;
   position: relative;
   padding: 0;
   font-size: 10px;
@@ -1353,7 +1353,7 @@ video::-webkit-media-text-track-display {
 .vjs-waiting .vjs-loading-spinner {
   display: block;
   -webkit-animation: vjs-spinner-show 0s linear 0.3s forwards;
-          animation: vjs-spinner-show 0s linear 0.3s forwards;
+  animation: vjs-spinner-show 0s linear 0.3s forwards;
 }
 
 .vjs-loading-spinner:before,
@@ -1571,8 +1571,8 @@ video::-webkit-media-text-track-display {
   }
 
   .vjs-layout-small .vjs-text-track-settings .vjs-modal-dialog-content,
-.vjs-layout-x-small .vjs-text-track-settings .vjs-modal-dialog-content,
-.vjs-layout-tiny .vjs-text-track-settings .vjs-modal-dialog-content {
+  .vjs-layout-x-small .vjs-text-track-settings .vjs-modal-dialog-content,
+  .vjs-layout-tiny .vjs-text-track-settings .vjs-modal-dialog-content {
     grid-template-columns: 1fr;
   }
 }

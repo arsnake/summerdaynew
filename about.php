@@ -32,10 +32,16 @@
                     </div>
                 <?php } ?>
             </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="inrow text-size-0">
+        <div class="inrow-col-50 text-size-initial">
+            <div class="h2"><strong>Діяльність</strong> ISATEX INVEST GROUP</div>
             <div class="about">
                 <p><b>ISATEX INVEST GROUP</b> – багатогалузевий холдинг зі штаб-квартирою в м. Мелітополь, який завдяки 15-річному досвіду об’єднує комерційну діяльність, інноваційні бізнес-проекти та соціальне підприємництво. На сьогодні до складу холдингу входять 43 Українські компанії та 3 закордонних підприємства.</p>
-                <h2>Діяльність ISATEX INVEST GROUP:</h2>
-                <ul>
+                <ul class="arrows">
                     <li>Будівництво нерухомості</li>
                     <li>Оренда, продаж нерухомого майна</li>
                     <li>Туризм та готельний бізнес</li>
@@ -45,10 +51,14 @@
                     <li>Енергетика</li>
                     <li>Управлінська діяльність</li>
                 </ul>
+            </div>
+        </div>
 
-                <h2>Географія діяльності</h2>
+        <div class="inrow-col-50 text-size-initial">
+            <div class="h2">Географія діяльності</div>
+            <div class="about">
                 <p>В Україні:</p>
-                <ul>
+                <ul class="arrows">
                     <li>Мелітополь</li>
                     <li>Київ</li>
                     <li>Дніпро</li>
@@ -57,14 +67,15 @@
                 </ul>
 
                 <p>За кордоном:</p>
-                <ul>
+                <ul class="arrows">
                     <li>Провінція Онтаріо (Канада)</li>
                     <li>Рига (Латвія)</li>
                 </ul>
-
             </div>
         </div>
+
     </div>
+</div>
 
 <div class="row">
     <div class="inrow">
