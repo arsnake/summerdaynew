@@ -7,3 +7,5 @@ vendor/
 /idea/
 todo.md
 .htaccess
+composer.phar
+composer.lock
