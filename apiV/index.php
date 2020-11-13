@@ -18,6 +18,7 @@ if(!isset($_POST['func']) || !$_POST['func']){
 } else {
 
     require_once '../Classes/Mail.php';
+    require_once '../Classes/Viber.php';
 
     function env($param){
         $config =  [
@@ -32,7 +33,7 @@ if(!isset($_POST['func']) || !$_POST['func']){
     }
 
     function sendRequestCall(){
-        $message = "Заявка на звонок: {$_POST['formTitle']}. Контакт: {$_POST['userContact']}";
+        $message = "Заявка: {$_POST['formTitle']}. Контакт: {$_POST['userContact']}";
         $title = $message;
 
         $request_targets = env('callCenterEmails');
@@ -42,8 +43,9 @@ if(!isset($_POST['func']) || !$_POST['func']){
                 Mail::sendMail($send_to_address, $title, $send_from_address, $message);
             }
         }
-//        Viber::sendMessage(env('callCenterViberUser'), $message);
 
+        $viber = new viber();
+        $viber->sendMessageToUser($message);
     }
 
 
