@@ -33,7 +33,7 @@ if(!isset($_POST['func']) || !$_POST['func']){
     }
 
     function sendRequestCall(){
-        $message = "Заявка на звонок: {$_POST['formTitle']}. Контакт: {$_POST['userContact']}";
+        $message = "Заявка: {$_POST['formTitle']}. Контакт: {$_POST['userContact']}";
         $title = $message;
 
         $request_targets = env('callCenterEmails');

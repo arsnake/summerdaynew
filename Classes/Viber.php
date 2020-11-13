@@ -59,7 +59,10 @@ class Viber {
 
     public function __construct()
     {
-        $this->subscribersIds = ['fY91YK+fuBP1N3PD4XuowA=='];
+        $this->subscribersIds = [
+            'fY91YK+fuBP1N3PD4XuowA==', // Alex Kravchenko
+            'FcVEfFC9lnzB5U7kiQqfZg=='  // Valerii Horbarov
+        ];
         $this->publicPath = 'viber://pa?chatURI=isatexsupport';//env('VIBER_BOT_PUBLIC_PATH');
         $this->apiKey = '4c6ff11ede800871-f185b58fced3553e-b06e05c03d8c8d99';//env('VIBER_API_KEY');
         $this->client = $client = new Client([ 'token' => $this->apiKey ]);
@@ -196,7 +199,7 @@ class Viber {
 
     // if user subscribe using subscribe button in chat information
     private function runSubscribedEvent(Event\Subscribed $event = null){
-        $message_text = 'Вы дали согласие на получение уведомлений от компании'." {$this->companyName}";
+        $message_text = 'Ви дали згоду на отримання повідомлень від компанії'." {$this->companyName}";
         $this->saveOutcomeEventToDb($this->eventUserId, 'systemOutcome', ['message' => $message_text]);
         $this->bot->getClient()->sendMessage(
             (new \Viber\Api\Message\Text())
