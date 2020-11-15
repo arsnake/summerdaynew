@@ -3,24 +3,55 @@
 <div class="row">
     <div class="inrow">
         <div class="video" style="position:relative;width:100%;">
-		<video preload="auto" muted class="video-js vjs-fluid" style="position:absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;" id="main-video" playsinline autoplay loop data-setup="{}">
+            <video autoplay muted loop playsinline id="myVideo">
+                <source src="/assets/videos/videobg10sec.mp4" type="video/mp4">
+            </video>
+
+		<!--<video preload="auto" muted class="video-js vjs-fluid" style="position:absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;" id="main-video" playsinline autoplay loop data-setup="{}">
 		    <source src="/assets/videos/gf_bg2.mp4" type="video/mp4"/>
 		    <source src="/assets/videos/gf_bg2.webm" type="video/webm"/>
               <p class="vjs-no-js">
                  To view this video please enable JavaScript, and consider upgrading to a web browser that
                  <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
               </p>
-		</video>
+		</video>-->
             <div class="glass">
                 <div class="content">
                     <div class="title">Апартаменти біля моря</div>
                     <div class="controls">
                         <!-- TODO: при клике на кнопку - открывать видео во весь екран -->
-							<span id="main-video-control" class="play fa fa-play c-play"></span>
+							<!--<span id="main-video-control" class="play fa fa-play c-play"></span>-->
+							<span id="myBtn" onclick="myFunction()" class="play fa fa-pause"></span>
                     </div>
                 </div>
                 <!--<img class="isatex-logo" src="assets/images/logo-isatex-light.svg" alt="Isatex Invest Group">-->
             </div>
+
+            
+            <script>
+                // Get the video
+                var video = document.getElementById("myVideo");
+
+                // Get the button
+                var btn = document.getElementById("myBtn");
+
+                // Pause and play the video, and change the button text
+                function myFunction() {
+                    if (video.paused) {
+                        video.play();
+                        if (btn.classList.contains("fa-play")) {
+                            btn.classList.remove("fa-play");
+                        }
+                        btn.classList.add("fa-pause");
+                    } else {
+                        video.pause();
+                        if (btn.classList.contains("fa-play")) {
+                            btn.classList.remove("fa-pause");
+                        }
+                        btn.classList.add("fa-play");
+                    }
+                }
+            </script>
         </div>
     </div>
 </div>
