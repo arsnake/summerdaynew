@@ -6,7 +6,7 @@ class Gallery
         $allowed_types = ["jpg", "png", "gif", "webp"];  // разрешеные типы изображений
         $dir_handle = @opendir($images_dir) or die("Ошибка при открытии папки !!!"); // пробуем открыть папку
         $slides_html = '';
-
+        $files = [];
 
         while ($file = readdir($dir_handle))    // поиск по файлам
         {
@@ -19,11 +19,23 @@ class Gallery
 
             if(in_array($ext,$allowed_types))
             {
-                $slides_html .= "<a data-fancybox='$expand_group' data-caption='' href='$images_dir/$file'><img class='owl-lazy' data-src='$images_dir/$file' class='item' title='$file' /></a>";
+                $files[] = $file; // put in array.
             }
 
         }
         closedir($dir_handle);  //закрыть папку
+
+        natsort($files); // sort.
+
+
+        foreach ($files as $file)
+        {
+            $file_parts = explode(".",$file);          // разделить имя файла и поместить его в массив
+            //$slides_html .= "<a data-fancybox='$expand_group' data-caption='' href='$images_dir/$file'><img class='owl-lazy' data-src='$images_dir/$file' class='item' title='$file' /></a>";
+
+            $slides_html .= "<a data-fancybox='$expand_group' data-caption='' href='$images_dir/$file'><span class='owl-lazy' data-src='$images_dir/$file'></span></a>";
+
+        }
 
         return $slides_html;
     }
