@@ -41,8 +41,10 @@
                             <li>7. Адміністрація</li>
                         </ul>
                         <div style="width: 100%;margin-left: 20px;margin-top: 15px;">
-                            <div style="width: 60px; height: 25px; background-color: #f00;display: inline-block"></div><span style="margin-left: 5px;">1 черга</span>
-                            <div style="width: 60px; height: 25px; background-color: #fbee00; display: inline-block;margin-left: 10px;"></div><span style="margin-left: 5px;">2 черга</span>
+                            <div style="width: 60px; height: 25px; background-color: #fbee00; display: inline-block;margin-left: 10px;vertical-align: middle;"></div>
+                            <span style="margin-left: 5px;display: inline-block;vertical-align: middle;">1 черга</span>
+                            <div style="width: 60px; height: 25px; background-color: #f00;display: inline-block;vertical-align: middle;"></div>
+                            <span style="margin-left: 5px;display: inline-block;vertical-align: middle;">2 черга</span>
                         </div>
                     </div>
                 </div>
@@ -77,7 +79,7 @@
                         <div class="renovation">
                             <i class="fa fa-info-circle"></i> Вартість ремонту 140 у.о. кв.м.
                             <br><br>
-                            <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ України
+                            <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ
                         </div>
 
                         <div class="zones">
@@ -91,7 +93,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_akvamarin.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Планування 65 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_akvamarin.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Завантажити планування 65 кв.м.</a>
                             <?= CallbackModal::getHtml('village65', 'Планування Аквамарин') ?>
                             <?= CallbackModalButton::getHtml('village65') ?>
                         </div>
@@ -122,7 +124,7 @@
                         <div class="renovation">
                             <i class="fa fa-info-circle"></i> Вартість ремонту 140 у.о. кв.м.
                             <br><br>
-                            <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ України
+                            <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ
                         </div>
 
                         <div class="zones">
@@ -136,7 +138,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_onyx.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Планування 91 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_onyx.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Завантажити планування 91 кв.м.</a>
                             <?= CallbackModal::getHtml('village91', 'Планування Онікс') ?>
                             <?= CallbackModalButton::getHtml('village91') ?>
                         </div>
@@ -167,7 +169,7 @@
                         <div class="renovation">
                             <i class="fa fa-info-circle"></i> Вартість ремонту 140 у.о. кв.м.
                             <br><br>
-                            <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ України
+                            <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ
                         </div>
 
                         <div class="zones">
@@ -181,7 +183,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_smaragd.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Планування 55 кв.м. PDF</a>
+                            <a href="assets/files/gfe/kp_smaragd.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Завантажити планування 55 кв.м.</a>
                             <?= CallbackModal::getHtml('village55', 'Планування Смарагд') ?>
                             <?= CallbackModalButton::getHtml('village55') ?>
                         </div>

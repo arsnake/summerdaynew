@@ -42,11 +42,11 @@
                                 <p>Оплата 100%-  23 452 у.о.*</p>
                                 <p>Розстрочка до 3-х років від забудовника- 24 882 у.о.*</p>
                                 <p>перший внесок- 30%</p>
-                                <p><span class="small">*у.о.- доллар США за курсом НБУ України</span></p>
+                                <p><span class="small">*у.о.- долар США за курсом НБУ</span></p>
                             </div>
                         </div>
                         <div class="download">
-                            <a href="/assets/files/gfa/kp_26.jpg" target="_blank" download class="download-link"><i class="fa fa-download"></i>Планування 26 кв.м. PDF</a>
+                            <a href="/assets/files/gfa/kp_26.jpg" target="_blank" download class="download-link"><i class="fa fa-download"></i>Завантажити планування 26 кв.м.</a>
                             <?= CallbackModal::getHtml('apartments26', 'Планування 26 кв.м.') ?>
                             <?= CallbackModalButton::getHtml('apartments26') ?>
                         </div>
@@ -66,11 +66,11 @@
                                 <p>Оплата 100%-  44 198 у.о.*</p>
                                 <p>Розстрочка до 3-х років від забудовника- 46 893 у.о.*</p>
                                 <p>перший внесок- 30%</p>
-                                <p><span class="small">*у.о.- доллар США за курсом НБУ України</span></p>
+                                <p><span class="small">*у.о.- долар США за курсом НБУ</span></p>
                             </div>
                         </div>
                         <div class="download">
-                            <a href="/assets/files/gfa/kp_49.jpg" download target="_blank" class="download-link"><i class="fa fa-download"></i>Планування 49 кв.м. PDF</a>
+                            <a href="/assets/files/gfa/kp_49.jpg" download target="_blank" class="download-link"><i class="fa fa-download"></i>Завантажити планування 49 кв.м.</a>
                             <?= CallbackModal::getHtml('apartments49', 'Планування 49 кв.м.') ?>
                             <?= CallbackModalButton::getHtml('apartments49') ?>
                         </div>

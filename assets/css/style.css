@@ -140,7 +140,7 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg) no-repe
 .brands-links .inrow{ height:300px;}
 .brands-links .col-50, .brands-links .col-25{font-size:initial;}
 .brands-links .isatex-link{display:inline-block;vertical-align: top;width: 50%;background: url(/assets/images/isatex-photo-3-clear.jpg) no-repeat center;background-size: cover;height: 100%;}
-.brands-links .isatex-link .glass{height: 100%;width:100%;display: table;background: rgb(40 64 134 / 50%);}
+.brands-links .isatex-link .glass{height: 100%;width:100%;display: table;background: rgb(40 64 134 / 75%);}
 .brands-links .isatex-link .content{display: table-cell;vertical-align:bottom;padding: 0 40px 40px 40px;cursor:pointer;}
 .brands-links .isatex-link .content:hover{padding-bottom:50px; }
 .brands-links .isatex-link .glass:hover{background: rgb(40 64 134 / 30%);}
@@ -263,7 +263,7 @@ input{padding: 8px 15px;width: 300px;max-width: calc(100% - 30px);border-radius:
 .projects a .description span{ }
 .projects a .content i{ }
 
-.village-plan-scheme{font-size:0;display:table;width:100%;background: #fbfbfb;border: 1px solid #eee;padding: 40px;}
+.village-plan-scheme{font-size:0;display:table;width:100%;background: #e6e6e6;border: 1px solid #eee;padding: 40px;}
 .village-plan-scheme .content{ display:table-row;}
 .village-plan-scheme .content>div{display: table-cell;vertical-align: middle; font-size:initial;}
 .village-plan-scheme .image{width: 70%;}
@@ -392,7 +392,11 @@ div.scrollup:hover {
     background-color: #000;
 }
 
-
+#myVideo {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+}
 .footer .callback-form .submit,
 .footer a,
 .map .google-link a,
@@ -471,7 +475,6 @@ div.scrollup
     .side-nav .icon-links li{ display:inline-block;}
     .side-nav .messengers{ margin: 0; padding: 0;}
     .brands-links .isatex-link .content{ padding: 50px 40px;}
-    .video .controls{margin: calc(100vh / 2 - 100px) 0;}
     .news-list .article{ width: calc(33% - 80px);}
     .projects a .description{display:block;width:initial;margin: 0;padding: 10px 0 0px 60px;}
     .projects a .description i{margin: 0 5px 0 -20px;}
@@ -479,6 +482,8 @@ div.scrollup
     .projects a .content img{position: absolute;left: 0;}
     .village-plan-scheme{ padding:0; border:none;}
     .header-bg{ height:500px;}
+    .video .controls{margin: calc(100vh / 2 - 344px) 0;}
+    #myVideo{ min-height:initial;height:600px;}
 }
 
 @media only screen and (max-width: 900px) {
@@ -522,6 +527,7 @@ div.scrollup
     .brands-links .col-25 a .description *{ display:block;margin-top:5px;}
     .our-contacts .col-50{ display: block;width:initial;}
     .inrow-col-50{ display:block;width:initial;}
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -534,6 +540,8 @@ div.scrollup
     .header-bg{ height:200px;}
     .news .article .title .text{ height:initial;}
     .news .article .title .date{ height:initial;}
+    .video .controls{margin: calc(100vh / 2 - 294px) 0;}
+    #myVideo{ min-height:initial;height:400px;}
 }
 
 @media only screen and (max-width: 425px) {
@@ -616,11 +624,7 @@ div.scrollup
     cursor: pointer;
 }
 
-#myVideo {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-}
+
 
 @keyframes spinner {
     from {
