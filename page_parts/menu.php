@@ -4,7 +4,7 @@
         ['href' => '/', 'name' => 'Головна'],
         ['href' => '/about', 'name' => 'Про нас'],
         ['href' => '/projects', 'name' => 'Проекти'],
-        ['href' => '#', 'name' => 'Придбати', 'submenu' => [
+        ['href' => '/projects', 'name' => 'Придбати', 'submenu' => [
             ['href' => '/project', 'name' => 'Grand Family Apartments'],
             ['href' => '/project2', 'name' => 'Grand Family Village']
         ]],

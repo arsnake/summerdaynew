@@ -22,7 +22,7 @@
     <!-- TODO: метатеги для постранички: прев, некст -->
     <!-- TODO: мета каноникал -->
     <?php
-        $csVersion = 12;
+        $csVersion = 16;
         $cssContent = '';
         $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/scripts/jquery-modal/jquery.modal.min.css"/>';
         $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/scripts/owlcarousel/owl.carousel.min.css"/>';
