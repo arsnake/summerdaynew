@@ -48,6 +48,12 @@ if(!isset($_POST['func']) || !$_POST['func']){
         $viber->sendMessageToUser($message);
     }
 
+    function sendSubscribe(){
+        $message = "Підписка на новини та акції: {$_POST['userContact']}";
+        $viber = new viber();
+        $viber->sendMessageToUser($message);
+    }
+
 
 
     // вызываю запрашиваемую аяксом функцию

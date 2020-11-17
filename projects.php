@@ -93,7 +93,7 @@
 
     <div class="row">
         <div class="inrow">
-            <div class="h2"><strong>Галерея</strong> Іsatex Invest Group</div>
+            <div class="h2"><strong>Галерея</strong></div>
             <div class="gallery">
                 <div class="owl-carousel owl-theme">
                     <?= Gallery::getSlidesHtml("assets/images/gallery/projects", "galleryUniqueId") ?>
