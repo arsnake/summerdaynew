@@ -21,7 +21,12 @@
                     <div class="controls">
                         <!-- TODO: при клике на кнопку - открывать видео во весь екран -->
 							<!--<span id="main-video-control" class="play fa fa-play c-play"></span>-->
-							<span id="myBtn" onclick="myFunction()" class="play fa fa-pause"></span>
+                        <a class="video-play-button" href="https://www.youtube.com/watch?v=oj45W4szziA" rel="nofollow" target="_blank">
+                            <span id="myBtn" onclick="myFunction()" class="play fa fa-play"></span>
+                            <div class="text">Переглянути відео</div>
+                        </a>
+
+
                     </div>
                 </div>
                 <!--<img class="isatex-logo" src="assets/images/logo-isatex-light.svg" alt="Isatex Invest Group">-->
@@ -37,19 +42,19 @@
 
                 // Pause and play the video, and change the button text
                 function myFunction() {
-                    if (video.paused) {
-                        video.play();
-                        if (btn.classList.contains("fa-play")) {
-                            btn.classList.remove("fa-play");
-                        }
-                        btn.classList.add("fa-pause");
-                    } else {
-                        video.pause();
-                        if (btn.classList.contains("fa-play")) {
-                            btn.classList.remove("fa-pause");
-                        }
-                        btn.classList.add("fa-play");
-                    }
+                    // if (video.paused) {
+                    //     video.play();
+                    //     if (btn.classList.contains("fa-play")) {
+                    //         btn.classList.remove("fa-play");
+                    //     }
+                    //     btn.classList.add("fa-pause");
+                    // } else {
+                    //     video.pause();
+                    //     if (btn.classList.contains("fa-play")) {
+                    //         btn.classList.remove("fa-pause");
+                    //     }
+                    //     btn.classList.add("fa-play");
+                    // }
                 }
             </script>
         </div>

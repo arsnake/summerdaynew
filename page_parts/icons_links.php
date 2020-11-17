@@ -1,4 +1,5 @@
 <div class="icon-links">
+    <div class="title">Соц. Мережі</div>
     <div class="social">
         <ul>
             <li><a href="https://www.facebook.com/primorsk.apart." class="facebook fab fa-facebook" title="Facebook" target="_blank"></a></li>
@@ -6,6 +7,7 @@
             <li><a href="https://www.youtube.com/channel/UC-VT5giBfkDIqzNpvIUHErw?view_as=subscriber" class="youtube fab fa-youtube" title="Youtube" target="_blank"></a></li>
         </ul>
     </div>
+    <div class="title">Месенджери</div>
     <div class="messengers">
         <ul>
             <li><a href="viber://chat?number=%2B380977942020" class="viber fab fa-viber" title="Viber" target="_blank"></a></li>

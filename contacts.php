@@ -36,18 +36,6 @@
                             <span class="time">вихідний</span>
                         </div>
                     </div>
-                    <div class="worktime" style="margin-top:25px">
-                        <i class="far fa-comment-dots"></i>
-                        <div class="days">
-                            <span class="time">24/7</span>
-                        </div>
-                    </div>
-                    <div class="worktime" style="margin-top:25px">
-                        <i class="far fa-envelope"></i>
-                        <div class="days">
-                            <span class="time">24/7</span>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-50">
                     <div class="title">Керуюча компанія, адміністрація Комплексу Grand Family Apartments:</div>

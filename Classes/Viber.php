@@ -61,7 +61,8 @@ class Viber {
     {
         $this->subscribersIds = [
             'fY91YK+fuBP1N3PD4XuowA==', // Alex Kravchenko
-            'FcVEfFC9lnzB5U7kiQqfZg=='  // Valerii Horbarov
+            'FcVEfFC9lnzB5U7kiQqfZg==',  // Valerii Horbarov
+            '5rXsCiUCXYKCRejgU69Urg=='  // Sales Office - 097 794 20 20
         ];
         $this->publicPath = 'viber://pa?chatURI=isatexsupport';//env('VIBER_BOT_PUBLIC_PATH');
         $this->apiKey = '4c6ff11ede800871-f185b58fced3553e-b06e05c03d8c8d99';//env('VIBER_API_KEY');

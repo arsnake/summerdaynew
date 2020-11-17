@@ -22,7 +22,6 @@ if(($_SERVER['REQUEST_URI'] === '/about')) {
                 <div class="col-25">
                     <div class="title">Зв'язок</div>
                     <?= CallbackForm::getHtml('footerCallback') ?>
-                    <div class="title">Месенджери</div>
                     <?php include 'icons_links.php'; ?>
                 </div>
                 <div class="col-25">
