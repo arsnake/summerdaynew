@@ -32,7 +32,7 @@ class Gallery
         {
             $file_parts = explode(".",$file);          // разделить имя файла и поместить его в массив
             //$slides_html .= "<a data-fancybox='$expand_group' data-caption='' href='$images_dir/$file'><img class='owl-lazy' data-src='$images_dir/$file' class='item' title='$file' /></a>";
-            $file .= '?v=2';
+            $file .= '?v=3';
 
 
             $slides_html .= "<a data-fancybox='$expand_group' data-caption='' href='$images_dir/$file'><span class='owl-lazy' data-src='$images_dir/$file'></span></a>";

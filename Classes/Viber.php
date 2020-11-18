@@ -60,17 +60,21 @@ class Viber {
     public function __construct()
     {
         $this->subscribersIds = [
-            'fY91YK+fuBP1N3PD4XuowA==', // Alex Kravchenko
-            'FcVEfFC9lnzB5U7kiQqfZg==',  // Valerii Horbarov
-            '5rXsCiUCXYKCRejgU69Urg=='  // Sales Office - 097 794 20 20
+            'fY91YK+fuBP1N3PD4XuowA==', // ISATEX Alex Kravchenko
+            'FcVEfFC9lnzB5U7kiQqfZg==',  // ISATEX Valerii Horbarov
+            '5rXsCiUCXYKCRejgU69Urg=='  // ISATEX Sales Office - 097 794 20 20
+//            'fY91YK+fuBP1N3PD4XuowA==' // GF Alex Kravchenko
         ];
         $this->publicPath = 'viber://pa?chatURI=isatexsupport';//env('VIBER_BOT_PUBLIC_PATH');
-        $this->apiKey = '4c6ff11ede800871-f185b58fced3553e-b06e05c03d8c8d99';//env('VIBER_API_KEY');
+//        $this->publicPath = 'viber://pa?chatURI=grandfamilysupport';//env('VIBER_BOT_PUBLIC_PATH');
+        $this->apiKey = '4c6ff11ede800871-f185b58fced3553e-b06e05c03d8c8d99';// isatex
+//        $this->apiKey = '4c766ec837c00e4e-a625a42563f633df-82eb58cf6cfe052e';// GF
         $this->client = $client = new Client([ 'token' => $this->apiKey ]);
-        $this->companyName = 'Isatex Support';//env('VIBER_CLINIC_NAME');
+        $this->companyName = 'Grand Family Support';//env('VIBER_CLINIC_NAME');
         $this->botSender = new Sender([
             'name' => $this->companyName,
-            'avatar' => 'https://dl-media.viber.com/1/share/2/long/vibes/icon/image/0x0/e2ce/e1dc95183afb33027174e63326272066f282ba8cac2deccbe6630ca7e824e2ce.jpg',//env('VIBER_AVATAR'),
+//            'avatar' => 'https://dl-media.viber.com/1/share/2/long/vibes/icon/image/0x0/e2ce/e1dc95183afb33027174e63326272066f282ba8cac2deccbe6630ca7e824e2ce.jpg',//env('VIBER_AVATAR'),
+            'avatar' => "https://{$_SERVER['SERVER_NAME']}/assets/images/ga.png",//env('VIBER_AVATAR'),
         ]);
         $this->colours = [
             'button_bg_dental' => '#2e97a9',

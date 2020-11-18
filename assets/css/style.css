@@ -15,7 +15,7 @@ p{line-height: 24px;}
 strong{font-weight:500;}
 .about{ margin: 0 40px;}
 ul.arrows{padding-left: 20px;}
-ul.arrows li{display:block;background: url(../images/icons/check333.svg) no-repeat 0px center;background-size: 10px;padding: 2px 0 2px 20px;}
+ul.arrows li{display:block;background: url(../images/icons/check333.svg?v=2) no-repeat 0 center;background-size: 10px;padding: 2px 0 2px 20px;}
 
 .download-link{cursor:pointer; background: var(--apartments-blue, #61bcc1);text-decoration: none;color: #fff;padding: 7px 25px;border-radius:3px;display: inline-block;margin-right:10px;margin-top: 10px;}
 .download-link.red{ background: #c47449;}
@@ -31,7 +31,6 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg) no-repe
 .will-be-grand{position: absolute;right:40px;bottom: 20px;text-transform: uppercase;font-size: 12px;}
 
 .h2{font-size:26px;font-weight:300;margin: 40px 40px 20px 40px;}
-#.h2:after{display:block;background: var(--isatex-red, #d24a43);content:'';height:2px;margin-top:4px;width:70px;}
 
 .crumbs{margin: -10px 40px 40px 40px;padding: 10px 0 0 0;border-top: 1px solid #ccc;}
 .crumbs ul{margin: 0; padding: 0;display: block; }
@@ -41,7 +40,7 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg) no-repe
 .crumbs a.active, .crumbs a:hover{color:var(--isatex-red, #d24a43); }
 .crumbs span{ color:var(--middle-grey, #777);}
 
-.pagination{margin: 0px 40px 40px 40px;padding: 30px 0 0 0;border-top: 1px solid #ccc;}
+.pagination{margin: 0 40px 40px 40px;padding: 30px 0 0 0;border-top: 1px solid #ccc;}
 .pagination ul{margin: 0; padding: 0;display: block; }
 .pagination li{display: inline-block;vertical-align: middle; }
 .pagination a, .pagination span{/* font-size:14px; *//* padding-right: 5px; */background: #eee;padding: 7px 12px;/* border: 1px solid #ccc; */border-radius: 2px;display: block;margin-top: 10px;}
@@ -50,7 +49,7 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg) no-repe
 .pagination a:hover:not(.active){color:var(--isatex-red, #d24a43); }
 .pagination span{ color:var(--middle-grey, #777);}
 
-.article-content{ font-size:0;margin:0 40px 40px; 40px;}
+.article-content{ font-size:0;margin:0 40px 40px 40px;}
 .article-content .col-50{font-size:initial; display:inline-block;vertical-align:top;width:50%;}
 .article-content .date{ font-size:14px;}
 .article-content .date i{ margin-right:10px; color:#777;}
@@ -143,7 +142,7 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg) no-repe
 .brands-links{ font-size:0;}
 .brands-links .inrow{ height:300px;}
 .brands-links .col-50, .brands-links .col-25{font-size:initial;}
-.brands-links .isatex-link{display:inline-block;vertical-align: top;width: 50%;background: url(/assets/images/isatex-photo-3-clear.jpg) no-repeat center;background-size: cover;height: 100%;}
+.brands-links .isatex-link{display:inline-block;vertical-align: top;width: 50%;background: url(/assets/images/isatex-photo-3-clear.jpg?v=2) no-repeat center;background-size: cover;height: 100%;text-decoration: none;}
 .brands-links .isatex-link .glass{height: 100%;width:100%;display: table;background: rgb(40 64 134 / 75%);}
 .brands-links .isatex-link .content{display: table-cell;vertical-align:bottom;padding: 0 40px 40px 40px;cursor:pointer;}
 .brands-links .isatex-link .content:hover{padding-bottom:50px; }
@@ -180,7 +179,7 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg) no-repe
 .achievements .achievement{display: inline-block;width: 25%;font-size: initial;}
 .achievements .achievement .content{margin: 20px 20px 20px 60px;position: relative;}
 .achievements .achievement img{width: 40px;position: absolute;left: -60px;/* top: 0; */bottom: 0;min-height: 40px;}
-.achievements .achievement .number{color: var(--village-blue, #777);color: var(--apartments-blue, #777);font-size: 26px;}
+.achievements .achievement .number{color: var(--apartments-blue, #777);font-size: 26px;}
 .achievements .achievement .text{text-transform: uppercase;font-size: 12px;color: var(--middle-grey, #777);}
 
 .news{/* margin: 40px; */font-size: 0;}
@@ -205,8 +204,8 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg) no-repe
 .images-links .inrow{ height:300px;}
 .images-links .col-50{font-size:initial;}
 .images-links .link{display:inline-block;vertical-align: top;width: 50%;height: 100%; background: #ccc;}
-.images-links .link.link-1{ background: url(/assets/images/isatex-photo-2.jpg) no-repeat center;background-size: cover;}
-.images-links .link.link-2{background: url(/assets/images/isatex-photo-1-clear.jpg) no-repeat center;background-size: cover;text-align: right;}
+.images-links .link.link-1{ background: url(/assets/images/isatex-photo-2.jpg?v=2) no-repeat center;background-size: cover;}
+.images-links .link.link-2{background: url(/assets/images/isatex-photo-1-clear.jpg?v=2) no-repeat center;background-size: cover;text-align: right;}
 .images-links .link .glass{height: 100%;width:100%;display: table;background: rgb(40 64 134 / 50%);}
 .images-links .link .content{display: table-cell;vertical-align:bottom;padding: 0 40px 40px 40px;cursor:pointer;}
 .images-links .link .content:hover{padding-bottom:50px; }
@@ -238,8 +237,8 @@ input{padding: 8px 15px;width: 300px;max-width: calc(100% - 30px);border-radius:
 .our-contacts .worktime i{ display:inline-block; margin:0 10px 0 -30px;position:absolute;top:0;}
 .our-contacts a .description{display:block;font-size: 14px;}
 
-.map{background: url(/assets/images/maps/map-gf.svg) no-repeat center;background-size: cover;min-height: 100px;padding: 40px;}
-.map.isatex{background: url(/assets/images/maps/map-isatex.svg) no-repeat center;background-size: cover;}
+.map{background: url(/assets/images/maps/map-gf.svg?v=2) no-repeat center;background-size: cover;min-height: 100px;padding: 40px;}
+.map.isatex{background: url(/assets/images/maps/map-isatex.svg?v=2) no-repeat center;background-size: cover;}
 .map .h2{ margin:0;}
 .map .google-link{ margin-top:10px;}
 .map .google-link .title i{ margin-right:10px;}
@@ -356,11 +355,11 @@ i{ margin:0;padding:0;display:block;}
 }
 
 .header-bg.second-queue {
-    background: center / cover no-repeat url(/assets/images/2ndqueue.jpg);
+    background: center / cover no-repeat url(/assets/images/2ndqueue.jpg?v=2);
 }
 
 .header-bg.village {
-    background: center / cover no-repeat url(/assets/images/village_main_render2.jpg);
+    background: center / cover no-repeat url(/assets/images/village_main_render2.jpg?v=2);
 }
 
 

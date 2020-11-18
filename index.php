@@ -5,6 +5,7 @@
         <div class="video" style="position:relative;width:100%;">
             <video autoplay muted loop playsinline id="myVideo">
                 <source src="/assets/videos/videobg10sec.mp4" type="video/mp4">
+                <!--<source src="/assets/videos/videobg30sec.mp4" type="video/mp4">-->
             </video>
 
 		<!--<video preload="auto" muted class="video-js vjs-fluid" style="position:absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;" id="main-video" playsinline autoplay loop data-setup="{}">
@@ -116,10 +117,10 @@
         </div>
     </div>
 
-    <div class="c-video-modal" data-video-id="oj45W4szziA">
+    <!--<div class="c-video-modal" data-video-id="oj45W4szziA">
         <div class="c-video-modal__close"></div>
         <div id="player-container"></div>
-    </div>
+    </div>-->
 
-<script src="assets/scripts/youtube.js"></script>
+<!--<script src="assets/scripts/youtube.js"></script>-->
 <?php include 'page_parts/footer.php'; ?>
