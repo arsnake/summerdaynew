@@ -35,6 +35,8 @@ if(($_SERVER['REQUEST_URI'] === '/about')) {
                         <img class="gfa" src="assets/images/gfa.svg" alt="Grand Family Apartments">
                         <img class="gfv" src="assets/images/gfv.svg" alt="Grand Family Village">
                         <img class="isatex" src="assets/images/logo-isatex.svg" alt="Isatex Invest Group">
+                        <img class="isatex" src="assets/images/isatex-logo-2.jpg" alt="TM Isatex">
+
                     </div>
                 </div>
             </div>

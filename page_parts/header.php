@@ -23,16 +23,17 @@
     <!-- TODO: мета каноникал -->
     <?php
         $Version = 18;
-//        $cssContent = '';
-//        $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/scripts/jquery-modal/jquery.modal.min.css"/>';
-//        $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/scripts/owlcarousel/owl.carousel.min.css"/>';
-//        $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/css/style.css?v='.$Version.'"/>';
-
         $cssContent = '';
-        $cssContent .= file_get_contents('./assets/scripts/jquery-modal/jquery.modal.min.css');
-        $cssContent .= file_get_contents('./assets/scripts/owlcarousel/owl.carousel.min.css');
-        $cssContent .= file_get_contents('./assets/css/style.css');
-        $cssContent = "<style>$cssContent</style>";
+
+        $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/scripts/jquery-modal/jquery.modal.min.css"/>';
+        $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/scripts/owlcarousel/owl.carousel.min.css"/>';
+        $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/css/style.css?v='.$Version.'"/>';
+
+//        $cssContent .= file_get_contents('./assets/scripts/jquery-modal/jquery.modal.min.css');
+//        $cssContent .= file_get_contents('./assets/scripts/owlcarousel/owl.carousel.min.css');
+//        $cssContent .= file_get_contents('./assets/css/style.css');
+//        $cssContent = "<style>$cssContent</style>";
+
         echo $cssContent;
 
         $jsContent = '';
