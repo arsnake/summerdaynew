@@ -9,14 +9,15 @@
 					<li><span class="item">Контакти</span></li>
 				</ul>
 			</div>
+
             <div class="our-contacts">
                 <div class="col-50">
                     <div class="title">Головний офіс, департамент із продажу:</div>
                     <div class="contacts">
-                        <a href="https://goo.gl/maps/h2j2iRSXateW1cx37" target="_blank"><i class="fa fa-map"></i>Україна, Запорізька область, 72319,<br>м. Мелітополь, вул. Гетьманська, 109, оф. 11</a>
-                        <a href="tel:+380977942020"><i class="fa fa-phone"></i>097 794-20-20<span class="description">Grand Family Apartments</span></a>
-                        <a href="tel:+380977941919"><i class="fa fa-phone"></i>097 794-19-19<span class="description">Grand Family Village</span></a>
-                        <a href="mailto:sales@summer.day.ua"><i class="far fa-envelope"></i>sales@summer.day.ua</a>
+                        <a href="https://goo.gl/maps/h2j2iRSXateW1cx37" class="ga_click_map_isatex" target="_blank"><i class="fa fa-map"></i>Україна, Запорізька область, 72319,<br>м. Мелітополь, вул. Гетьманська, 109, оф. 11</a>
+                        <a href="tel:+380977942020" class="ga_click_contact_0977942020"><i class="fa fa-phone"></i>097 794-20-20<span class="description">Grand Family Apartments</span></a>
+                        <a href="tel:+380977941919" class="ga_click_contact_0977941919"><i class="fa fa-phone"></i>097 794-19-19<span class="description">Grand Family Village</span></a>
+                        <a href="mailto:sales@summer.day.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>sales@summer.day.ua</a>
                     </div>
                 </div>
                 <div class="col-50">
@@ -40,10 +41,10 @@
                 <div class="col-50">
                     <div class="title">Керуюча компанія, адміністрація Комплексу Grand Family Apartments:</div>
                     <div class="contacts"> 
-                        <a href="https://goo.gl/maps/VVFCYp1ZUMCj7Utw7" target="_blank"><i class="fa fa-map"></i>Україна, Запорізька обл.,<br>м. Приморськ, вул. Курортна, 25</a>
-                        <a href="tel:0662072020"><i class="fa fa-phone"></i>066 207-20-20</a>
-                        <a href="tel:0682072020"><i class="fa fa-phone"></i>068 207-20-20</a>
-                        <a href="mailto:apartmentsGF@gmail.com"><i class="far fa-envelope"></i>apartmentsGF@gmail.com</a>
+                        <a href="https://goo.gl/maps/VVFCYp1ZUMCj7Utw7" class="ga_click_map_apartments" target="_blank"><i class="fa fa-map"></i>Україна, Запорізька обл.,<br>м. Приморськ, вул. Курортна, 25</a>
+                        <a href="tel:0662072020" class="ga_click_contact_0662072020"><i class="fa fa-phone"></i>066 207-20-20</a>
+                        <a href="tel:0682072020" class="ga_click_contact_0682072020"><i class="fa fa-phone"></i>068 207-20-20</a>
+                        <a href="mailto:apartmentsGF@gmail.com" class="ga_click_contact_email"><i class="far fa-envelope"></i>apartmentsGF@gmail.com</a>
                     </div>
                 </div>
             </div>

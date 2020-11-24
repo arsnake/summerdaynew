@@ -4,7 +4,7 @@
     <div class="inrow">
         <div class="video" style="position:relative;width:100%;">
             <video autoplay muted loop playsinline id="myVideo">
-                <source src="/assets/videos/videobg10sec.mp4" type="video/mp4">
+                <source src="/assets/videos/videobg10secClear.mp4" type="video/mp4">
                 <!--<source src="/assets/videos/videobg30sec.mp4" type="video/mp4">-->
             </video>
 
