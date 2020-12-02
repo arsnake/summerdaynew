@@ -33,7 +33,23 @@ if(!isset($_POST['func']) || !$_POST['func']){
     }
 
     function sendRequestCall(){
-        $message = "Заявка: {$_POST['formTitle']}. Контакт: {$_POST['userContact']}";
+        $messages = [
+            "footerCallback" => "Доброго дня, мене зацікавила нерухомість. Зателефонуйте мені за номером, будь ласка: ",
+            "apartments26" => "Доброго дня. Я хочу придбати квартиру 26 кв. м. у Grand Family Apartments. Зателефонуйте мені, будь ласка: ",
+            "apartments49" => "Доброго дня. Я хочу придбати квартиру 49 кв. м. у Grand Family Apartments. Зателефонуйте мені, будь ласка: ",
+            "village65" => "Доброго дня. Я хочу придбати котедж Аквамарин у Grand Family Village. Зателефонуйте мені, будь ласка: ",
+            "village91" => "Доброго дня. Я хочу придбати котедж Онікс у Grand Family Village. Зателефонуйте мені, будь ласка: ",
+            "village55" => "Доброго дня. Я хочу придбати котедж Смарагд у Grand Family Village. Зателефонуйте мені, будь ласка: ",
+        ];
+
+        $form_name = $_POST['formName'];
+
+        if(isset($messages[$form_name])){
+            $message = $messages[$form_name]. $_POST['userContact'];
+        }else{
+            $message = "Заявка: {$_POST['formTitle']}. Контакт: {$_POST['userContact']}";
+        }
+
         $title = $message;
 
         $request_targets = env('callCenterEmails');

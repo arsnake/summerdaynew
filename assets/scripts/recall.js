@@ -3,18 +3,26 @@ function sendRequestCall(formName){
     const userContact = form.find('input.jsContact').val();
     const formTitle = form.find('input.jsFormTitle').val();
 
-    $.post('/api', {
-        'userContact': userContact,
-        'formName': formName,
-        'formTitle': formTitle,
-        'func': 'sendRequestCall',
-    }).then(
-        function (data) {
-            // form.addClass('submitted');
-        }
-    );
+    if(validatePhone(userContact)){
+        $.post('/api', {
+            'userContact': userContact,
+            'formName': formName,
+            'formTitle': formTitle,
+            'func': 'sendRequestCall',
+        }).then(
+            function (data) {
+                // form.addClass('submitted');
+            }
+        );
 
-    form.addClass('submitted');
+        form.addClass('submitted');
+    }else{
+        form.addClass('submit_error');
+    }
+}
+function validatePhone(phoneNumber) {
+    const filter = /^[0-9]{7,14}?$/;
+    return filter.test(phoneNumber);
 }
 
 function sendSubscribe(){
