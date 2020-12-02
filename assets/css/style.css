@@ -331,6 +331,9 @@ i{ margin:0;padding:0;display:block;}
 .callback-form.submitted .callback{display:inline-block;padding:10px 40px; background:#d6e7e1;border-radius:2px;}
 .callback-form.submitted .content{display: none;}
 .callback-form.submitted .controls{display: none;}
+.callback-form .error{ display:none;}
+.callback-form.submit_error .error{display:block;margin: 5px 0 0 0;color: darkred;background: #ffe7e7;padding: 10px;border-radius: 3px;}
+
 
 .modal .title{font-size:24px;margin-bottom:20px; }
 .modal .callback-form .submit{margin-top:30px; }
