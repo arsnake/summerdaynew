@@ -19,6 +19,7 @@ RewriteRule ^news-1$ news-1.php [L]
 RewriteRule ^news-2$ news-2.php [L]
 RewriteRule ^news-3$ news-3.php [L]
 RewriteRule ^news-4$ news-4.php [L]
+RewriteRule ^news-5$ news-5.php [L]
 
 RewriteRule ^api$ apiV/index.php [L]
 RewriteRule ^viber$ apiV/viber.php [L]
