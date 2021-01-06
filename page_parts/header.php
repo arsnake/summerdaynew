@@ -45,9 +45,7 @@
     ?>
 
 
-	
-
-    
+    <meta name="google-site-verification" content="zZ394Fm8P0o-K3kfzYf7WQMZUHWvdUjKivDABoa1FWU" />
 
 </head>
 
