@@ -17,7 +17,11 @@
                         <a href="https://goo.gl/maps/h2j2iRSXateW1cx37" class="ga_click_map_isatex" target="_blank"><i class="fa fa-map"></i>Україна, Запорізька область, 72319,<br>м. Мелітополь, вул. Гетьманська, 109, оф. 11</a>
                         <a href="tel:+380977942020" class="ga_click_contact_0977942020"><i class="fa fa-phone"></i>097 794-20-20<span class="description">Grand Family Apartments</span></a>
                         <a href="tel:+380977941919" class="ga_click_contact_0977941919"><i class="fa fa-phone"></i>097 794-19-19<span class="description">Grand Family Village</span></a>
-                        <a href="mailto:sales@summer.day.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>sales@summer.day.ua</a>
+                        <a href="mailto:sales@summer.day.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>sales@summer.day.ua<span class="description">Відділ продажу</span></a>
+                        <a href="mailto:financial@isatex.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>financial@isatex.ua<span class="description">Бухгалтерія</span></a>
+                        <a href="mailto:delivery.ua@isatex.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>delivery.ua@isatex.ua<span class="description">Відділ закупівель</span></a>
+                        <a href="mailto:hr@isatex.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>hr@isatex.ua<span class="description">Відділ кадрів</span></a>
+                        <a href="mailto:info@isatex.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>info@isatex.ua<span class="description">Адміністративний відділ</span></a>
                     </div>
                 </div>
                 <div class="col-50">
