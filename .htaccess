@@ -14,6 +14,7 @@ RewriteRule ^contacts$ contacts.php [L]
 RewriteRule ^project$ project.php [L]
 RewriteRule ^project2$ project2.php [L]
 RewriteRule ^projects$ projects.php [L]
+RewriteRule ^team$ team.php [L]
 
 RewriteRule ^news-1$ news-1.php [L]
 RewriteRule ^news-2$ news-2.php [L]

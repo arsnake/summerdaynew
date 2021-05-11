@@ -3,6 +3,7 @@
     $menuLinks = [
         ['href' => '/', 'name' => 'Головна'],
         ['href' => '/about', 'name' => 'Про нас'],
+        ['href' => '/team', 'name' => 'Команда'],
         ['href' => '/projects', 'name' => 'Проекти'],
         ['href' => '/projects', 'name' => 'Придбати', 'submenu' => [
             ['href' => '/project', 'name' => 'Grand Family Apartments'],

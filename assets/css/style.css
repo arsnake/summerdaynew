@@ -200,6 +200,14 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg?v=2) no-
 .news-list{margin:0;font-size: 0;position:relative;}
 .news-list .article{ width: calc(25% - 80px);}
 
+.team{padding: 0 30px;}
+.team .member{display:inline-block;width: calc(25% - 24px);vertical-align: top;text-decoration: none;padding: 10px 10px;color: #333;text-align: center;}
+.team .member .content{padding: 20px 20px 0px 20px;border: 1px solid #ddd;}
+.team .member .name{padding: 10px 20px 20px 20px;/* border: 1px solid #ddd; *//* border-top: none; */font-size: 18px;}
+.team .member .title{padding: 20px 0 0 0;font-style: italic;font-size: 14px;/* color: #666; */}
+.team .member .image{height: 250px;overflow: hidden;}
+.team .member .image img{height:auto;width: 100%;margin: 0;max-height: initial;}
+
 .images-links{ font-size:0;}
 .images-links .inrow{ height:300px;}
 .images-links .col-50{font-size:initial;}
@@ -443,6 +451,7 @@ div.scrollup,
     .desctop_hidden{ display: block;}
     .mobile_hidden{ display: none;}
 
+    .team .member{width: calc(33% - 23px);}
 
     #headerNavs .title{margin-top: 25px; text-transform: uppercase;font-size: 14px;color: var(--apartments-blue,#284086);border-bottom: 1px solid var(--apartments-blue,#284086);padding-bottom: 5px;}
     #headerNavs{top: 0;margin: 0;position: fixed;background: rgb(255 255 255);width: calc(100% - 80px);max-width: 300px;left: -100vw;text-align:start;z-index: 50;padding: 0px 60px 20px 20px;display: block;height: 100vh;overflow: auto;}
@@ -514,6 +523,8 @@ div.scrollup,
 }
 
 @media only screen and (max-width: 768px) {
+    .team .member{width: calc(50% - 23px);}
+
     .achievements{ }
     .achievements .achievement{width: 33%;}
     .achievements .achievement .content{ }
@@ -528,6 +539,10 @@ div.scrollup,
 }
 
 @media only screen and (max-width: 600px) {
+    .team{ padding:0;}
+    .team .member{width: calc(100% - 23px);}
+    .team .member .image{height: calc(80vw - 23px);}
+
     .achievements .achievement{width: 50%;}
     .images-links .link .title{font-size: 20px;}
     .will-be-grand{position:relative;text-align: center;right: initial;bottom: initial;margin-top: 10px;}

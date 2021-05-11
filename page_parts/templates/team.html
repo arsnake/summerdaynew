@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="inrow">
+        <!--<div class="h2"><?= $title ?></div>-->
+        <div class="team">
+            <?php foreach ($member_groups as $group_name => $members){ ?>
+                <div class="h2"><?= $group_name ?></div>
+
+                <?php foreach ($members as $member){ ?>
+                    <div class="member">
+                        <div class="content">
+                            <div class="image">
+                                <img src="assets/images/members/<?= $member['image'] ?>" alt="<?= $member['name'] ?>">
+                            </div>
+                            <div class="title"><?= $member['title'] ?></div>
+                            <div class="name"><?= $member['name'] ?></div>
+                        </div>
+                    </div>
+                <?php } ?>
+
+            <?php } ?>
+        </div>
+    </div>
+</div>
