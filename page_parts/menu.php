@@ -10,7 +10,7 @@
             ['href' => '/project2', 'name' => 'Grand Family Village']
         ]],
         ['href' => 'https://gfa.in.ua/', 'name' => 'Забронювати', 'target' => '_blank'],
-        ['href' => '/news', 'name' => 'Новини'],
+        //['href' => '/news', 'name' => 'Новини'],
         ['href' => '/contacts', 'name' => 'Контакти']
     ];
 ?>

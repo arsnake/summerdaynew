@@ -62,6 +62,13 @@
     </div>
 </div>
 
+<div class="row online-translation">
+    <button type="button" href="https://rtsp.me/embed/dTkDRH3a/" data-fancybox="" data-type="iframe">
+        <i class="fa fa-play"></i>
+        Дивитися трансляцію
+    </button>
+</div>
+
 <div class="row brands-links">
     <div class="inrow">
         <a href="/about" class="isatex-link col-50">
@@ -104,7 +111,7 @@
 
 <?php include 'page_parts/achievements.php'; ?>
 <?php include 'page_parts/buy_rent.php'; ?>
-<?php include 'page_parts/last_news.php'; ?>
+<?php //include 'page_parts/last_news.php'; ?>
 
     <div class="row">
         <div class="inrow">

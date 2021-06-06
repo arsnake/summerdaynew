@@ -12,7 +12,7 @@
     <script id="afterload_scripts"></script>
 
     <!-- TODO: тайтл активной страницы -->
-    <title>Summerday</title>
+    <title>Grand Family Apartments</title>
 
     <!-- TODO: метатеги для ктивных языков -->
     <!--<link rel='alternate' hreflang='en' href='https://some.site/en' />

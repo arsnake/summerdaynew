@@ -76,7 +76,9 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg?v=2) no-
 .head .menu li ul a{ border-top:none; border-top:1px solid #fff;display:block;}
 .head .menu li ul a:hover{ background:#fff;}
 
-
+.row.online-translation{ }
+.row.online-translation button{font-size: 16px;color: #FFFFFF;padding: 12px 38px 12px 22px;background: rgba(225, 26, 26, 0.9);border-radius: 2px 2px 0 0;border: none;display: flex;align-items: center;transition: all 0.5s;cursor:pointer;position: absolute;top: 90px;right: 40px;}
+.row.online-translation button i{ margin-right:18px; font-size:14px}
 
 .head .langs{display: inline-block;position: absolute;right: 0;top: 0;z-index: 2;}
 .head .langs ul{display: inline-block;margin: 0;padding: 0;}
@@ -450,6 +452,8 @@ div.scrollup,
 @media only screen and (max-width: 1070px) {
     .desctop_hidden{ display: block;}
     .mobile_hidden{ display: none;}
+
+    .row.online-translation button{position: initial;width: 100%;display: block;padding: 20px 40px;}
 
     .team .member{width: calc(33% - 23px);}
 
