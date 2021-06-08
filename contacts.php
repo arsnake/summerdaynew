@@ -12,12 +12,22 @@
 
             <div class="our-contacts">
                 <div class="col-50">
-                    <div class="title">Головний офіс, департамент із продажу:</div>
+                    <div class="title">Офіс, департамент із продажу в місті Мелітополь:</div>
                     <div class="contacts">
                         <a href="https://goo.gl/maps/h2j2iRSXateW1cx37" class="ga_click_map_isatex" target="_blank"><i class="fa fa-map"></i>Україна, Запорізька область, 72319,<br>м. Мелітополь, вул. Гетьманська, 109, оф. 11</a>
-                        <a href="tel:+380977942020" class="ga_click_contact_0977942020"><i class="fa fa-phone"></i>097 794-20-20<span class="description">Grand Family Apartments</span></a>
-                        <a href="tel:+380977941919" class="ga_click_contact_0977941919"><i class="fa fa-phone"></i>097 794-19-19<span class="description">Grand Family Village</span></a>
-                        <a href="mailto:sales@summer.day.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>sales@summer.day.ua<span class="description">Відділ продажу</span></a>
+                        <a href="tel:+380977942020" class="ga_click_contact_0977942020"><i class="fa fa-phone"></i>097 794-20-20<span class="description">Grand Family Apartments, Grand Family Village</span></a>
+                        <a href="mailto:sales@summer.day.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>sales@summer.day.ua<span class="description">Відділ продажу в місті Мелітополь</span></a>
+                    </div>
+
+                    <div class="title">Офіс, департамент із продажу в місті Запоріжжя:</div>
+                    <div class="contacts">
+                        <a href="https://goo.gl/maps/KMg1h5faPZTJQWpy6" class="ga_click_map_isatex" target="_blank"><i class="fa fa-map"></i>Україна, м. Запоріжжя, проспект Маяковського 11, БЦ "Маяковський", 7 поверх, офіс 717</a>
+                        <a href="tel:+380977941919" class="ga_click_contact_0977941919"><i class="fa fa-phone"></i>097 794-19-19<span class="description">Grand Family Apartments, Grand Family Village</span></a>
+                        <a href="mailto:sales.zp@summer.day.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>sales.zp@summer.day.ua<span class="description">Відділ продажу в місті Запоріжжя</span></a>
+                    </div>
+
+                    <div class="title">Головний офіс, департамент із продажу:</div>
+                    <div class="contacts">
                         <a href="mailto:financial@isatex.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>financial@isatex.ua<span class="description">Бухгалтерія</span></a>
                         <a href="mailto:delivery.ua@isatex.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>delivery.ua@isatex.ua<span class="description">Відділ закупівель</span></a>
                         <a href="mailto:hr@isatex.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>hr@isatex.ua<span class="description">Відділ кадрів</span></a>
