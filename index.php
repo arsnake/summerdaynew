@@ -65,7 +65,7 @@
 <div class="row online-translation">
     <button type="button" href="https://rtsp.me/embed/dTkDRH3a/" data-fancybox="" data-type="iframe">
         <i class="fa fa-play"></i>
-        Дивитися трансляцію
+        Дивитись трансляцію
     </button>
 </div>
 

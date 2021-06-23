@@ -26,6 +26,13 @@
                         <a href="mailto:sales.zp@summer.day.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>sales.zp@summer.day.ua<span class="description">Відділ продажу в місті Запоріжжя</span></a>
                     </div>
 
+                    <div class="title">Офіс, департамент із продажу в місті Бердянськ:</div>
+                    <div class="contacts">
+                        <a href="https://goo.gl/maps/t6biy6aKQ2RiThsG8" class="ga_click_map_isatex" target="_blank"><i class="fa fa-map"></i>Україна, Запорізька обл. м. Бердянськ, вул. Дюміна, 40</a>
+                        <a href="tel:+380962042020" class="ga_click_contact_0962042020"><i class="fa fa-phone"></i>096 204 20 20<span class="description">Grand Family Apartments, Grand Family Village</span></a>
+                        <a href="mailto:sales@summer.day.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>sales@summer.day.ua<span class="description">Відділ продажу в місті Бердянськ</span></a>
+                    </div>
+
                     <div class="title">Головний офіс, департамент із продажу:</div>
                     <div class="contacts">
                         <a href="mailto:financial@isatex.ua" class="ga_click_contact_email"><i class="far fa-envelope"></i>financial@isatex.ua<span class="description">Бухгалтерія</span></a>

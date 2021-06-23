@@ -175,6 +175,7 @@ ul.arrows li{display:block;background: url(../images/icons/check333.svg?v=2) no-
 .variant .description .text{display: inline-block;vertical-align: top;width: calc(50% - 4px);}
 .variant .description .text .small{ font-size:12px;}
 .variant .download{text-align:center;}
+.variant .description .text.full{ display:initial;width:initial;}
 
 
 .achievements{font-size: 0;margin: 0 40px 40px 40px;}

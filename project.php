@@ -31,22 +31,24 @@
                             <img class="item" src="assets/images/project-renders/render_1_3.jpg" alt="alt">
                         </div>
                         <div class="description">
-                            <div class="text">
+                            <div class="text full">
                                 <p><strong>Без ремонту:</strong></p>
-                                <p>Оплата 100%- 20 462 у.о*</p>
-                                <p>Розстрочка до 2-х років від забудовника- 22 022 у.о.*</p>
-                                <p>перший внесок- 30%</p>
+                                <p>Оплата 100%- 23 530 у.о*</p>
+                                <p>Розстрочка до 2-х років від забудовника- 25 324 у.о.*</p>
+                                <p>перший внесок- 30% (7598 у.о.)</p>
+                                <p>24 місяці по 738 у.о.</p>
+                                <p><span class="small">*у.о.- долар США за курсом НБУ</span></p>
                             </div>
-                            <div class="text">
+                            <!--<div class="text">
                                 <p><strong>З ремонтом:</strong></p>
                                 <p>Оплата 100%-  25 792 у.о.*</p>
                                 <p>Розстрочка до 2-х років від забудовника- 27 378 у.о.*</p>
                                 <p>перший внесок- 30%</p>
                                 <p><span class="small">*у.о.- долар США за курсом НБУ</span></p>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="download">
-                            <a href="/assets/files/gfa/kp_26.jpg" target="_blank" download class="download-link"><i class="fa fa-download"></i>Завантажити планування 26 кв.м.</a>
+                            <a href="/assets/files/gfa/kp_26_2.pdf" target="_blank" download class="download-link"><i class="fa fa-download"></i>Завантажити планування 26 кв.м.</a>
                             <?= CallbackModal::getHtml('apartments26', 'Планування 26 кв.м.') ?>
                             <?= CallbackModalButton::getHtml('apartments26') ?>
                         </div>
@@ -55,22 +57,24 @@
                         <div class="title">Планування 49 кв.м.</div>
                         <div class="image"><img src="assets/images/project-renders/render_2_2.png" alt="Житлових корпусів"></div>
                         <div class="description">
-                            <div class="text">
+                            <div class="text full">
                                 <p><strong>Без ремонту:</strong></p>
-                                <p>Оплата 100%- 38 563 у.о*</p>
-                                <p>Розстрочка до 2-х років від забудовника- 41 503 у.о.*</p>
-                                <p>перший внесок- 30%</p>
+                                <p>Оплата 100%- 44 345 у.о*</p>
+                                <p>Розстрочка до 2-х років від забудовника- 47 726 у.о.*</p>
+                                <p>перший внесок- 30% (14318 у.о.)</p>
+                                <p>24 місяці по 1392 у.о.</p>
+                                <p><span class="small">*у.о.- долар США за курсом НБУ</span></p>
                             </div>
-                            <div class="text">
+                            <!--<div class="text">
                                 <p><strong>З ремонтом:</strong></p>
                                 <p>Оплата 100%-  48 605 у.о.*</p>
                                 <p>Розстрочка до 2-х років від забудовника- 51 597 у.о.*</p>
                                 <p>перший внесок- 30%</p>
                                 <p><span class="small">*у.о.- долар США за курсом НБУ</span></p>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="download">
-                            <a href="/assets/files/gfa/kp_49.jpg" download target="_blank" class="download-link"><i class="fa fa-download"></i>Завантажити планування 49 кв.м.</a>
+                            <a href="/assets/files/gfa/kp_49_2.pdf" download target="_blank" class="download-link"><i class="fa fa-download"></i>Завантажити планування 49 кв.м.</a>
                             <?= CallbackModal::getHtml('apartments49', 'Планування 49 кв.м.') ?>
                             <?= CallbackModalButton::getHtml('apartments49') ?>
                         </div>

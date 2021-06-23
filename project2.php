@@ -57,28 +57,27 @@
             <div class="village-plans">
                 <div class="plan">
                     <div class="h2">Планування та вартість таунхаусу <strong>Аквамарин</strong>. Загальна площа - 65 кв.м.</div>
-                    <div class="image"><img src="assets/images/plan-2.jpg" alt=""></div>
+                    <div class="image"><img src="assets/images/plan-1.jpg" alt=""></div>
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
+
                             <div class="village-price-desc">
-                                <p><strong>1 черга: Червень 2022 - Липень 2023</strong></p>
-                                <p>Оплата 100%<br><i>42 250 у.о.*<br>650 у.о.*/кв. м.</i></p>
-                                <p>Розстрочка 2 роки, перший внесок 30%<br><i>50 050 у.о.*<br>770 у.о.*/кв. м.</i></p>
-                                <p>Розстрочка 3 роки, перший внесок 20%<br><i>53 300 у.о.*<br>820 у.о.*/кв. м.</i></p>
+                                <p><strong>1 черга: Червень 2022 - Червень 2023</strong></p>
+                                <p>Оплата 100%<br><i>Загальна вартість - 48 620 у.о.*<br>748 у.о.*/кв. м.</i></p>
+                                <p>Розстрочка на 2 роки, перший внесок 30% (17 277 у.о.)<br><i>Загальна вартість - 57 590 у.о.*<br>886 у.о.*/кв. м.<br>1 680 у.о. помісячно</i></p>
+                                <p>Розстрочка на 3 роки, перший внесок 20% (12 259 у.о.)<br><i>Загальна вартість - 61 295 у.о.*<br>943 у.о.*/кв. м.<br>1 362 у.о. помісячно</i></p>
                             </div>
 
                             <div class="village-price-desc">
-                                <p><strong>2 черга: Червень 2023 - Липень 2024</strong></p>
-                                <p>Оплата 100%<br><i>42 250 у.о.*<br>38 350 у.о.*<br>590 у.о.*/кв. м.</i></p>
-                                <p>Розстрочка 2 роки, перший внесок 30%<br><i>45 500 у.о.*<br>700 у.о.*/кв. м.</i></p>
-                                <p>Розстрочка 3 роки, перший внесок 20%<br><i>48 425 у.о.*<br>745 у.о.*/кв. м.</i></p>
+                                <p><strong>2 черга: Червень 2023 - Червень 2024</strong></p>
+                                <p>Оплата 100%<br><i>Загальна вартість - 44 135 у.о.*<br>679 у.о.*/кв. м.</i></p>
+                                <p>Розстрочка на 2 роки, перший внесок 30% (15 700 у.о.)<br><i>Загальна вартість - 52 325 у.о.*<br>805 у.о.*/кв. м.<br>1 526 у.о. помісячно</i></p>
+                                <p>Розстрочка на 3 роки, перший внесок 20% (11 141 у.о.)<br><i>Загальна вартість - 55 705 у.о.*<br>857 у.о.*/кв. м.<br>1 238 у.о. помісячно</i></p>
                             </div>
                         </div>
 
                         <div class="renovation">
-                            <i class="fa fa-info-circle"></i> Вартість ремонту 140 у.о. кв.м.
-                            <br><br>
                             <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ
                         </div>
 
@@ -93,7 +92,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_akvamarin.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Завантажити планування 65 кв.м.</a>
+                            <a href="assets/files/gfe/kp_akvamarin2.pdf" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Завантажити планування 65 кв.м.</a>
                             <?= CallbackModal::getHtml('village65', 'Планування Аквамарин') ?>
                             <?= CallbackModalButton::getHtml('village65') ?>
                         </div>
@@ -122,8 +121,6 @@
                         </div>
 
                         <div class="renovation">
-                            <i class="fa fa-info-circle"></i> Вартість ремонту 140 у.о. кв.м.
-                            <br><br>
                             <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ
                         </div>
 
@@ -147,28 +144,27 @@
 
                 <div class="plan">
                     <div class="h2">Планування та вартість таунхаусу <strong>Смарагд</strong>. Загальна площа - 55 кв.м.</div>
-                    <div class="image"><img src="assets/images/plan-1.jpg" alt=""></div>
+                    <div class="image"><img src="assets/images/plan-2.jpg" alt=""></div>
                     <div class="description">
                         <div class="pricing">
                             <div class="title">Вартість без ремонтних робіт та матеріалів</div>
+
                             <div class="village-price-desc">
                                 <p><strong>1 черга: Червень 2022 - Липень 2023</strong></p>
-                                <p>Оплата 100%<br><i>35 750 у.о.*<br>650 у.о.*/кв. м.</i></p>
-                                <p>Розстрочка 2 роки, перший внесок 30%<br><i>42 350 у.о.*<br>770 у.о.*/кв. м.</i></p>
-                                <p>Розстрочка 3 роки, перший внесок 20%<br><i>45 100 у.о.*<br>820 у.о.*/кв. м.</i></p>
+                                <p>Оплата 100%<br><i>Загальна вартість - 41 140 у.о.*<br>748 у.о.*/кв. м.</i></p>
+                                <p>Розстрочка на 2 роки, перший внесок 30% (14 620 у.о.)<br><i>Загальна вартість - 48 730 у.о.*<br>886 у.о.*/кв. м.<br>1 421 у.о. помісячно</i></p>
+                                <p>Розстрочка на 3 роки, перший внесок 20% (10 373 у.о.)<br><i>Загальна вартість - 51 865 у.о.*<br>943 у.о.*/кв. м.<br>1 152 у.о. помісячно</i></p>
                             </div>
 
                             <div class="village-price-desc">
-                                <p><strong>2 черга: Червень 2023 - Липень 2024</strong></p>
-                                <p>Оплата 100%<br><i>32 450 у.о.*<br>590 у.о.*/кв. м.</i></p>
-                                <p>Розстрочка 2 роки, перший внесок 30%<br><i>35 500 у.о.*<br>700 у.о.*/кв. м.</i></p>
-                                <p>Розстрочка 3 роки, перший внесок 20%<br><i>40 975 у.о.*<br>745 у.о.*/кв. м.</i></p>
+                                <p><strong>1 черга: Червень 2023 - Червень 2024</strong></p>
+                                <p>Оплата 100%<br><i>Загальна вартість - 37 345 у.о.*<br>679 у.о.*/кв. м.</i></p>
+                                <p>Розстрочка на 2 роки, перший внесок 30% (14 620 у.о.)<br><i>Загальна вартість - 44 275 у.о.*<br>805 у.о.*/кв. м.<br>1 291 у.о. помісячно</i></p>
+                                <p>Розстрочка на 3 роки, перший внесок 20% (9 427 у.о.)<br><i>Загальна вартість - 47 135 у.о.*<br>857 у.о.*/кв. м.<br>1 047 у.о. помісячно</i></p>
                             </div>
                         </div>
 
                         <div class="renovation">
-                            <i class="fa fa-info-circle"></i> Вартість ремонту 140 у.о. кв.м.
-                            <br><br>
                             <i class="fa fa-info-circle"></i> *1 у.о.- 1 долар США за курсом НБУ
                         </div>
 
@@ -183,7 +179,7 @@
                             </ul>
                         </div>
                         <div class="download">
-                            <a href="assets/files/gfe/kp_smaragd.jpg" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Завантажити планування 55 кв.м.</a>
+                            <a href="assets/files/gfe/kp_smaragd2.pdf" target="_blank" download class="download-link blue"><i class="fa fa-download"></i>Завантажити планування 55 кв.м.</a>
                             <?= CallbackModal::getHtml('village55', 'Планування Смарагд') ?>
                             <?= CallbackModalButton::getHtml('village55') ?>
                         </div>

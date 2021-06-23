@@ -22,7 +22,7 @@
     <!-- TODO: метатеги для постранички: прев, некст -->
     <!-- TODO: мета каноникал -->
     <?php
-        $Version = 18;
+        $Version = 19;
         $cssContent = '';
 
         $cssContent .= '<link rel="stylesheet" type="text/css" href="assets/scripts/jquery-modal/jquery.modal.min.css"/>';

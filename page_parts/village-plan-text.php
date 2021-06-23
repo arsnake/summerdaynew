@@ -27,9 +27,9 @@
         </table>
     </div>
 
-    <div class="renovation">
+    <!--<div class="renovation">
         <i class="fa fa-info-circle"></i> Вартість ремонту 140 у.о. кв.м.
-    </div>
+    </div>-->
 
     <div class="zones">
         <div class="title">Зонавання таунхаус Смарагд</div>
