@@ -31,12 +31,16 @@
                             <img class="item" src="assets/images/project-renders/render_1_3.jpg" alt="alt">
                         </div>
                         <div class="description">
+
                             <div class="text full">
-                                <p><strong>Без ремонту:</strong></p>
-                                <p>Оплата 100%- 23 530 у.о*</p>
-                                <p>Розстрочка до 2-х років від забудовника- 25 324 у.о.*</p>
-                                <p>перший внесок- 30% (7598 у.о.)</p>
-                                <p>24 місяці по 738 у.о.</p>
+                                <p><strong>Готовність до червня 2022 року</strong></p>
+                            </div>
+                            <div class="text full">
+                                <p><strong>Умови оплати:</strong></p>
+                                <p>Оплата 100%- 26 000 у.о*</p>
+                                <p>Розстрочка на 2 роки- 31 200 у.о.*</p>
+                                <p>перший внесок- 30% (9 370 у.о.)</p>
+                                <p>24 місяці по 910 у.о.</p>
                                 <p><span class="small">*у.о.- долар США за курсом НБУ</span></p>
                             </div>
                             <!--<div class="text">
@@ -58,11 +62,14 @@
                         <div class="image"><img src="assets/images/project-renders/render_2_2.png" alt="Житлових корпусів"></div>
                         <div class="description">
                             <div class="text full">
-                                <p><strong>Без ремонту:</strong></p>
-                                <p>Оплата 100%- 44 345 у.о*</p>
-                                <p>Розстрочка до 2-х років від забудовника- 47 726 у.о.*</p>
-                                <p>перший внесок- 30% (14318 у.о.)</p>
-                                <p>24 місяці по 1392 у.о.</p>
+                                <p><strong>Готовність до червня 2022 року</strong></p>
+                            </div>
+                            <div class="text full">
+                                <p><strong>Умови оплати:</strong></p>
+                                <p>Оплата 100%- 49 000 у.о*</p>
+                                <p>Розстрочка на 2 роки- 58 800 у.о.*</p>
+                                <p>перший внесок- 30% (17 640 у.о.)</p>
+                                <p>24 місяці по 1 715 у.о.</p>
                                 <p><span class="small">*у.о.- долар США за курсом НБУ</span></p>
                             </div>
                             <!--<div class="text">
